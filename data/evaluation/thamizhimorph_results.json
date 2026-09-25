@@ -1,0 +1,435 @@
+{
+  "benchmark_name": "ThamizhiMorph Evaluation Benchmark (Core vs Guesser)",
+  "total_cases": 10,
+  "valid_core_analyses": 7,
+  "guesser_only_analyses": 3,
+  "unknown_cases": 0,
+  "overall_lemma_match_percent": 80.0,
+  "core_lemma_match_percent": 60.0,
+  "cases": [
+    {
+      "id": "L036",
+      "surface": "வந்தார்கள்",
+      "expected_lemma": "வா",
+      "expected_features": "Past + 3rd person plural/honorific",
+      "classification": "VALID_CORE",
+      "valid_core_analysis": true,
+      "guesser_only_analysis": false,
+      "unknown": false,
+      "lemma_matched": true,
+      "core_lemma_matched": true,
+      "fst_models_used": [
+        "verb-c-rest.fst",
+        "noun-guess.fst",
+        "verb-guess.fst"
+      ],
+      "analyses": [
+        {
+          "lemma": "வா",
+          "pos": "verb",
+          "morphology": "verb+fin+sim+strong+past=த்+3sghe=ஆர்கள்",
+          "analysis_type": "core",
+          "fst_model": "verb-c-rest.fst",
+          "raw_foma_output": "வந்தார்கள்\tவா+verb+fin+sim+strong+past=த்+3sghe=ஆர்கள்"
+        },
+        {
+          "lemma": "வா",
+          "pos": "verb",
+          "morphology": "verb+fin+sim+strong+past=த்+3ple=ஆர்கள்",
+          "analysis_type": "core",
+          "fst_model": "verb-c-rest.fst",
+          "raw_foma_output": "வந்தார்கள்\tவா+verb+fin+sim+strong+past=த்+3ple=ஆர்கள்"
+        },
+        {
+          "lemma": "வந்தார்",
+          "pos": "noun",
+          "morphology": "noun+pl+nom",
+          "analysis_type": "guesser",
+          "fst_model": "noun-guess.fst",
+          "raw_foma_output": "வந்தார்கள்\tவந்தார்+noun+pl+nom"
+        },
+        {
+          "lemma": "வந்",
+          "pos": "verb",
+          "morphology": "verb+fin+sim+past+3ple",
+          "analysis_type": "guesser",
+          "fst_model": "verb-guess.fst",
+          "raw_foma_output": "வந்தார்கள்\tவந்+verb+fin+sim+past+3ple"
+        },
+        {
+          "lemma": "வந்",
+          "pos": "verb",
+          "morphology": "verb+fin+sim+past+3sghe",
+          "analysis_type": "guesser",
+          "fst_model": "verb-guess.fst",
+          "raw_foma_output": "வந்தார்கள்\tவந்+verb+fin+sim+past+3sghe"
+        }
+      ],
+      "raw_foma_outputs": [
+        "வந்தார்கள்\tவா+verb+fin+sim+strong+past=த்+3sghe=ஆர்கள்",
+        "வந்தார்கள்\tவா+verb+fin+sim+strong+past=த்+3ple=ஆர்கள்",
+        "வந்தார்கள்\tவந்தார்+noun+pl+nom",
+        "வந்தார்கள்\tவந்+verb+fin+sim+past+3ple",
+        "வந்தார்கள்\tவந்+verb+fin+sim+past+3sghe"
+      ]
+    },
+    {
+      "id": "L037",
+      "surface": "சென்றுகொண்டிருந்தான்",
+      "expected_lemma": "செல்",
+      "expected_features": "Past + progressive/complex + 3rd person singular masculine",
+      "classification": "VALID_CORE",
+      "valid_core_analysis": true,
+      "guesser_only_analysis": false,
+      "unknown": false,
+      "lemma_matched": false,
+      "core_lemma_matched": false,
+      "fst_models_used": [
+        "verb-c12.fst",
+        "noun-guess.fst",
+        "verb-guess.fst"
+      ],
+      "analyses": [
+        {
+          "lemma": "சென்றுகொண்டிரு",
+          "pos": "verb",
+          "morphology": "verb+fin+complex+aspect+strong+past=த்+3sgm=ஆன்",
+          "analysis_type": "core",
+          "fst_model": "verb-c12.fst",
+          "raw_foma_output": "சென்றுகொண்டிருந்தான்\tசென்றுகொண்டிரு+verb+fin+complex+aspect+strong+past=த்+3sgm=ஆன்"
+        },
+        {
+          "lemma": "சென்றுகொண்டிருந்தான்",
+          "pos": "noun",
+          "morphology": "noun+sg+nom",
+          "analysis_type": "guesser",
+          "fst_model": "noun-guess.fst",
+          "raw_foma_output": "சென்றுகொண்டிருந்தான்\tசென்றுகொண்டிருந்தான்+noun+sg+nom"
+        },
+        {
+          "lemma": "சென்றுகொண்டிருந்",
+          "pos": "verb",
+          "morphology": "verb+fin+sim+past+3sgm",
+          "analysis_type": "guesser",
+          "fst_model": "verb-guess.fst",
+          "raw_foma_output": "சென்றுகொண்டிருந்தான்\tசென்றுகொண்டிருந்+verb+fin+sim+past+3sgm"
+        }
+      ],
+      "raw_foma_outputs": [
+        "சென்றுகொண்டிருந்தான்\tசென்றுகொண்டிரு+verb+fin+complex+aspect+strong+past=த்+3sgm=ஆன்",
+        "சென்றுகொண்டிருந்தான்\tசென்றுகொண்டிருந்தான்+noun+sg+nom",
+        "சென்றுகொண்டிருந்தான்\tசென்றுகொண்டிருந்+verb+fin+sim+past+3sgm"
+      ]
+    },
+    {
+      "id": "L038",
+      "surface": "மரங்களில்",
+      "expected_lemma": "மரம்",
+      "expected_features": "Plural + locative",
+      "classification": "VALID_CORE",
+      "valid_core_analysis": true,
+      "guesser_only_analysis": false,
+      "unknown": false,
+      "lemma_matched": true,
+      "core_lemma_matched": true,
+      "fst_models_used": [
+        "noun.fst",
+        "noun-guess.fst"
+      ],
+      "analyses": [
+        {
+          "lemma": "மரம்",
+          "pos": "noun",
+          "morphology": "noun+pl+abl",
+          "analysis_type": "core",
+          "fst_model": "noun.fst",
+          "raw_foma_output": "மரங்களில்\tமரம்+noun+pl+abl"
+        },
+        {
+          "lemma": "மரம்",
+          "pos": "noun",
+          "morphology": "noun+pl+loc",
+          "analysis_type": "core",
+          "fst_model": "noun.fst",
+          "raw_foma_output": "மரங்களில்\tமரம்+noun+pl+loc"
+        },
+        {
+          "lemma": "மரங்",
+          "pos": "noun",
+          "morphology": "noun+pl+loc",
+          "analysis_type": "guesser",
+          "fst_model": "noun-guess.fst",
+          "raw_foma_output": "மரங்களில்\tமரங்+noun+pl+loc"
+        }
+      ],
+      "raw_foma_outputs": [
+        "மரங்களில்\tமரம்+noun+pl+abl",
+        "மரங்களில்\tமரம்+noun+pl+loc",
+        "மரங்களில்\tமரங்+noun+pl+loc"
+      ]
+    },
+    {
+      "id": "L039",
+      "surface": "மனதினால்",
+      "expected_lemma": "மனம்",
+      "expected_features": "Instrumental/case-marked",
+      "classification": "GUESSER_ONLY",
+      "valid_core_analysis": false,
+      "guesser_only_analysis": true,
+      "unknown": false,
+      "lemma_matched": false,
+      "core_lemma_matched": false,
+      "fst_models_used": [
+        "noun-guess.fst"
+      ],
+      "analyses": [
+        {
+          "lemma": "மனதி",
+          "pos": "noun",
+          "morphology": "noun+inst",
+          "analysis_type": "guesser",
+          "fst_model": "noun-guess.fst",
+          "raw_foma_output": "மனதினால்\tமனதி+noun+inst"
+        }
+      ],
+      "raw_foma_outputs": [
+        "மனதினால்\tமனதி+noun+inst"
+      ]
+    },
+    {
+      "id": "L040",
+      "surface": "பாடுகின்றனர்",
+      "expected_lemma": "பாடு",
+      "expected_features": "Present/progressive + 3rd person plural",
+      "classification": "GUESSER_ONLY",
+      "valid_core_analysis": false,
+      "guesser_only_analysis": true,
+      "unknown": false,
+      "lemma_matched": true,
+      "core_lemma_matched": false,
+      "fst_models_used": [
+        "noun-guess.fst"
+      ],
+      "analyses": [
+        {
+          "lemma": "பாடுகின்றனர்",
+          "pos": "noun",
+          "morphology": "noun+sg+nom",
+          "analysis_type": "guesser",
+          "fst_model": "noun-guess.fst",
+          "raw_foma_output": "பாடுகின்றனர்\tபாடுகின்றனர்+noun+sg+nom"
+        }
+      ],
+      "raw_foma_outputs": [
+        "பாடுகின்றனர்\tபாடுகின்றனர்+noun+sg+nom"
+      ]
+    },
+    {
+      "id": "L041",
+      "surface": "மரத்தை",
+      "expected_lemma": "மரம்",
+      "expected_features": "Accusative",
+      "classification": "VALID_CORE",
+      "valid_core_analysis": true,
+      "guesser_only_analysis": false,
+      "unknown": false,
+      "lemma_matched": true,
+      "core_lemma_matched": true,
+      "fst_models_used": [
+        "noun.fst",
+        "noun-guess.fst"
+      ],
+      "analyses": [
+        {
+          "lemma": "மரம்",
+          "pos": "noun",
+          "morphology": "noun+infInc+acc",
+          "analysis_type": "core",
+          "fst_model": "noun.fst",
+          "raw_foma_output": "மரத்தை\tமரம்+noun+infInc+acc"
+        },
+        {
+          "lemma": "மரத்தை",
+          "pos": "noun",
+          "morphology": "noun+sg+nom",
+          "analysis_type": "guesser",
+          "fst_model": "noun-guess.fst",
+          "raw_foma_output": "மரத்தை\tமரத்தை+noun+sg+nom"
+        }
+      ],
+      "raw_foma_outputs": [
+        "மரத்தை\tமரம்+noun+infInc+acc",
+        "மரத்தை\tமரத்தை+noun+sg+nom"
+      ]
+    },
+    {
+      "id": "L042",
+      "surface": "வீட்டில்",
+      "expected_lemma": "வீடு",
+      "expected_features": "Locative",
+      "classification": "VALID_CORE",
+      "valid_core_analysis": true,
+      "guesser_only_analysis": false,
+      "unknown": false,
+      "lemma_matched": true,
+      "core_lemma_matched": true,
+      "fst_models_used": [
+        "noun.fst",
+        "noun-guess.fst"
+      ],
+      "analyses": [
+        {
+          "lemma": "வீடு",
+          "pos": "noun",
+          "morphology": "noun+loc",
+          "analysis_type": "core",
+          "fst_model": "noun.fst",
+          "raw_foma_output": "வீட்டில்\tவீடு+noun+loc"
+        },
+        {
+          "lemma": "வீடு",
+          "pos": "noun",
+          "morphology": "noun+abl",
+          "analysis_type": "core",
+          "fst_model": "noun.fst",
+          "raw_foma_output": "வீட்டில்\tவீடு+noun+abl"
+        },
+        {
+          "lemma": "வீட்டில்",
+          "pos": "noun",
+          "morphology": "noun+sg+nom",
+          "analysis_type": "guesser",
+          "fst_model": "noun-guess.fst",
+          "raw_foma_output": "வீட்டில்\tவீட்டில்+noun+sg+nom"
+        }
+      ],
+      "raw_foma_outputs": [
+        "வீட்டில்\tவீடு+noun+loc",
+        "வீட்டில்\tவீடு+noun+abl",
+        "வீட்டில்\tவீட்டில்+noun+sg+nom"
+      ]
+    },
+    {
+      "id": "L043",
+      "surface": "மாணவர்களுக்கு",
+      "expected_lemma": "மாணவர்",
+      "expected_features": "Plural + dative",
+      "classification": "VALID_CORE",
+      "valid_core_analysis": true,
+      "guesser_only_analysis": false,
+      "unknown": false,
+      "lemma_matched": true,
+      "core_lemma_matched": true,
+      "fst_models_used": [
+        "noun.fst",
+        "noun-guess.fst"
+      ],
+      "analyses": [
+        {
+          "lemma": "மாணவன்",
+          "pos": "noun",
+          "morphology": "noun+dat+pl",
+          "analysis_type": "core",
+          "fst_model": "noun.fst",
+          "raw_foma_output": "மாணவர்களுக்கு\tமாணவன்+noun+dat+pl"
+        },
+        {
+          "lemma": "மாணவர்",
+          "pos": "noun",
+          "morphology": "noun+dat+pl",
+          "analysis_type": "core",
+          "fst_model": "noun.fst",
+          "raw_foma_output": "மாணவர்களுக்கு\tமாணவர்+noun+dat+pl"
+        },
+        {
+          "lemma": "மாணவர்",
+          "pos": "noun",
+          "morphology": "noun+pl+dat",
+          "analysis_type": "guesser",
+          "fst_model": "noun-guess.fst",
+          "raw_foma_output": "மாணவர்களுக்கு\tமாணவர்+noun+pl+dat"
+        }
+      ],
+      "raw_foma_outputs": [
+        "மாணவர்களுக்கு\tமாணவன்+noun+dat+pl",
+        "மாணவர்களுக்கு\tமாணவர்+noun+dat+pl",
+        "மாணவர்களுக்கு\tமாணவர்+noun+pl+dat"
+      ]
+    },
+    {
+      "id": "L044",
+      "surface": "பெண்களால்",
+      "expected_lemma": "பெண்",
+      "expected_features": "Plural + instrumental",
+      "classification": "GUESSER_ONLY",
+      "valid_core_analysis": false,
+      "guesser_only_analysis": true,
+      "unknown": false,
+      "lemma_matched": true,
+      "core_lemma_matched": false,
+      "fst_models_used": [
+        "noun-guess.fst"
+      ],
+      "analyses": [
+        {
+          "lemma": "பெண்",
+          "pos": "noun",
+          "morphology": "noun+pl+inst",
+          "analysis_type": "guesser",
+          "fst_model": "noun-guess.fst",
+          "raw_foma_output": "பெண்களால்\tபெண்+noun+pl+inst"
+        }
+      ],
+      "raw_foma_outputs": [
+        "பெண்களால்\tபெண்+noun+pl+inst"
+      ]
+    },
+    {
+      "id": "L045",
+      "surface": "புத்தகங்களின்",
+      "expected_lemma": "புத்தகம்",
+      "expected_features": "Plural + genitive",
+      "classification": "VALID_CORE",
+      "valid_core_analysis": true,
+      "guesser_only_analysis": false,
+      "unknown": false,
+      "lemma_matched": true,
+      "core_lemma_matched": true,
+      "fst_models_used": [
+        "noun.fst",
+        "noun-guess.fst"
+      ],
+      "analyses": [
+        {
+          "lemma": "புத்தகம்",
+          "pos": "noun",
+          "morphology": "noun+pl+gen",
+          "analysis_type": "core",
+          "fst_model": "noun.fst",
+          "raw_foma_output": "புத்தகங்களின்\tபுத்தகம்+noun+pl+gen"
+        },
+        {
+          "lemma": "புத்தகம்",
+          "pos": "noun",
+          "morphology": "noun+pl+abl",
+          "analysis_type": "core",
+          "fst_model": "noun.fst",
+          "raw_foma_output": "புத்தகங்களின்\tபுத்தகம்+noun+pl+abl"
+        },
+        {
+          "lemma": "புத்தகங்",
+          "pos": "noun",
+          "morphology": "noun+pl+abl",
+          "analysis_type": "guesser",
+          "fst_model": "noun-guess.fst",
+          "raw_foma_output": "புத்தகங்களின்\tபுத்தகங்+noun+pl+abl"
+        }
+      ],
+      "raw_foma_outputs": [
+        "புத்தகங்களின்\tபுத்தகம்+noun+pl+gen",
+        "புத்தகங்களின்\tபுத்தகம்+noun+pl+abl",
+        "புத்தகங்களின்\tபுத்தகங்+noun+pl+abl"
+      ]
+    }
+  ]
+}

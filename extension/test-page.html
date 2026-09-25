@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOL AI Extension — Local Development Test Page</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Latha", "Nirmala UI", sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.8;
+      background: #f8fafc;
+      color: #0f172a;
+    }
+    h1 {
+      color: #1e293b;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 12px;
+    }
+    .instruction {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #1e40af;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+    }
+    .test-card {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 16px;
+      font-size: 18px;
+    }
+    .test-card strong {
+      display: block;
+      font-size: 13px;
+      color: #64748b;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>SOL AI Extension — Local Test Page</h1>
+
+  <div class="instruction">
+    <strong>Instructions for Testing:</strong>
+    <ol>
+      <li>Ensure the SOL AI API backend server is running (<code>python backend/api/server.py --port 8000</code>).</li>
+      <li>Select any Tamil word or phrase below (e.g. <strong>மரங்களில்</strong>, <strong>யாழ்</strong>, <strong>அகதி</strong>, <strong>வந்தார்கள்</strong>).</li>
+      <li>Right-click and select <strong>"Explain with SOL AI"</strong>.</li>
+      <li>Verify the floating side panel appears with loading spinner, core/guesser morphology, literary contexts, sources, and uncertainties.</li>
+    </ol>
+  </div>
+
+  <div class="test-card">
+    <strong>Sample 1 (Inflected Noun):</strong>
+    <p>மரங்களில் பறவை ஒலிக்கும். சோலையில் பல வண்ண மரங்கள் செழித்து வளர்ந்துள்ளன.</p>
+  </div>
+
+  <div class="test-card">
+    <strong>Sample 2 (Classical Literary Word):</strong>
+    <p>யாழ் இனிய இசைக்கருவியாக சங்க இலக்கியங்களில் சிறப்பாகப் போற்றப்படுகிறது.</p>
+  </div>
+
+  <div class="test-card">
+    <strong>Sample 3 (Purist Dictionary Word):</strong>
+    <p>அகதி என்ற சொல் பல்வேறு தமிழ் அகராதிகளில் ஏதிலி, வறியன் எனப் பொருளிக்கப்படுகிறது.</p>
+  </div>
+
+  <div class="test-card">
+    <strong>Sample 4 (Inflected Verb):</strong>
+    <p>அவர்கள் நேற்று மாலை இல்லத்திற்கு வந்தார்கள்.</p>
+  </div>
+
+  <div class="test-card">
+    <strong>Sample 5 (Noun Case Suffix):</strong>
+    <p>மாணவர்களுக்கு தமிழ் இலக்கணம் மற்றும் சொல் வரலாறு கற்பிக்கப்படுகிறது.</p>
+  </div>
+
+</body>
+</html>

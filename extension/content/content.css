@@ -1,0 +1,530 @@
+/* SOL AI Extension — Scoped Panel CSS */
+
+:host {
+  all: initial;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Latha", "Nirmala UI", "Mukta Malalar", "Tamil Sangam MN", sans-serif;
+  box-sizing: border-box;
+  z-index: 2147483647;
+  /* Theme Variables matching Mockup */
+  --sol-bg-main: #070D19;
+  --sol-bg-card: rgba(10, 18, 32, 0.6);
+  --sol-bg-card-hover: rgba(15, 25, 45, 0.8);
+  --sol-gold: #E5C158;
+  --sol-gold-dim: #C9A227;
+  --sol-text-main: #F7F3EA;
+  --sol-text-muted: #9AA9C2;
+  --sol-border: rgba(101, 114, 138, 0.3);
+  --sol-border-gold: rgba(201, 162, 39, 0.3);
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Base Panel */
+#sol-ai-panel {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 420px;
+  max-width: calc(100vw - 40px);
+  max-height: calc(100vh - 40px);
+  background: var(--sol-bg-main);
+  color: var(--sol-text-main);
+  border: 1px solid var(--sol-border-gold);
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(229, 193, 88, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+  z-index: 2147483647;
+  animation: solSlideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Background Artwork */
+.sol-panel-bg {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.sol-panel-bg::before {
+  content: "";
+  position: absolute;
+  top: -50%; left: -50%; width: 200%; height: 200%;
+  background-image: url('chrome-extension://__MSG_@@extension_id__/icons/sidebar_leaf.png');
+  background-size: cover;
+  opacity: 0.15;
+  filter: sepia(0.5) hue-rotate(-20deg) saturate(1.5);
+  pointer-events: none;
+}
+
+@keyframes solSlideIn {
+  from { opacity: 0; transform: translateY(-10px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Header */
+.sol-header {
+  position: relative;
+  z-index: 10;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--sol-border);
+  background: rgba(5, 10, 20, 0.6);
+  backdrop-filter: blur(10px);
+  user-select: none;
+}
+
+.sol-logo-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sol-logo-img {
+  height: 32px;
+  width: auto;
+}
+
+.sol-header-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.sol-header-title-text {
+  font-family: var(--font-serif-tamil, Georgia, serif);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--sol-gold);
+  letter-spacing: 0.5px;
+}
+
+.sol-header-subtitle {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: var(--sol-text-muted);
+  text-transform: uppercase;
+}
+
+.sol-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sol-icon-btn {
+  background: transparent;
+  border: none;
+  color: var(--sol-text-muted);
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.sol-icon-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--sol-text-main);
+}
+.sol-icon-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* Body Container */
+.sol-body {
+  position: relative;
+  z-index: 10;
+  padding: 0;
+  overflow-y: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: thin;
+  scrollbar-color: var(--sol-border) transparent;
+}
+.sol-body::-webkit-scrollbar {
+  width: 6px;
+}
+.sol-body::-webkit-scrollbar-thumb {
+  background: var(--sol-border);
+  border-radius: 10px;
+}
+
+/* Default State (Select Word) */
+.sol-default-state {
+  padding: 32px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.sol-default-title {
+  font-family: var(--font-serif-tamil, Georgia, serif);
+  font-size: 20px;
+  color: var(--sol-text-main);
+  font-weight: 500;
+}
+.sol-default-desc {
+  font-size: 14px;
+  color: var(--sol-text-muted);
+  line-height: 1.6;
+}
+.sol-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+  width: 100%;
+  margin-top: 16px;
+}
+.sol-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.sol-feature-icon {
+  color: var(--sol-gold);
+  flex-shrink: 0;
+}
+.sol-feature-icon svg {
+  width: 24px; height: 24px;
+}
+.sol-feature-text strong {
+  display: block;
+  font-size: 14px;
+  color: var(--sol-text-main);
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.sol-feature-text span {
+  font-size: 12px;
+  color: var(--sol-text-muted);
+}
+
+/* Hero Section */
+.sol-hero {
+  padding: 24px 20px 16px;
+}
+.sol-hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sol-word-title {
+  font-family: var(--font-serif-tamil, Georgia, serif);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--sol-text-main);
+  margin-bottom: 4px;
+}
+.sol-transliteration {
+  font-size: 14px;
+  color: var(--sol-text-muted);
+  font-style: italic;
+  margin-bottom: 12px;
+}
+.sol-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.sol-badge {
+  border: 1px solid var(--sol-border);
+  background: rgba(255,255,255,0.05);
+  color: var(--sol-text-muted);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+}
+
+/* Tabs */
+.sol-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--sol-border);
+  padding: 0 20px;
+  gap: 20px;
+}
+.sol-tab {
+  background: transparent;
+  border: none;
+  color: var(--sol-text-muted);
+  padding: 12px 0;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+.sol-tab:hover {
+  color: var(--sol-text-main);
+}
+.sol-tab.active {
+  color: var(--sol-gold);
+  border-bottom-color: var(--sol-gold);
+}
+
+/* Tab Content Areas */
+.sol-tab-content {
+  display: none;
+  padding: 20px;
+}
+.sol-tab-content.active {
+  display: block;
+}
+
+/* Meaning List */
+.sol-meaning-card {
+  background: var(--sol-bg-card);
+  border: 1px solid var(--sol-border);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.sol-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--sol-gold);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.sol-card-header svg {
+  width: 18px; height: 18px;
+}
+
+.sol-meaning-summary {
+  font-size: 14px;
+  color: var(--sol-text-main);
+  margin-bottom: 16px;
+}
+
+.sol-meaning-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.sol-meaning-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.sol-meaning-number {
+  background: var(--sol-gold-dim);
+  color: #070D19;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+.sol-meaning-details {
+  flex: 1;
+}
+.sol-meaning-title {
+  color: var(--sol-text-main);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.sol-meaning-desc {
+  color: var(--sol-text-muted);
+  font-size: 13px;
+}
+.sol-most-common {
+  background: rgba(22, 101, 52, 0.2);
+  color: #4ade80;
+  border: 1px solid rgba(74, 222, 128, 0.3);
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  float: right;
+  margin-left: 8px;
+}
+
+/* Morphology Details */
+.sol-morph-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+.sol-morph-item {
+  display: flex;
+  flex-direction: column;
+}
+.sol-morph-tamil {
+  color: var(--sol-text-main);
+  font-family: var(--font-serif-tamil, Georgia, serif);
+  font-size: 15px;
+}
+.sol-morph-eng {
+  color: var(--sol-text-muted);
+  font-size: 12px;
+}
+.sol-morph-pos {
+  color: var(--sol-text-muted);
+  font-size: 11px;
+}
+.sol-morph-plus {
+  color: var(--sol-gold);
+  margin: 0 4px;
+}
+
+/* Literary Evidence */
+.sol-lit-verse {
+  background: rgba(0,0,0,0.3);
+  border: 1px solid var(--sol-border);
+  padding: 12px;
+  border-radius: 8px;
+  font-family: var(--font-serif-tamil, Georgia, serif);
+  font-size: 14px;
+  color: var(--sol-text-main);
+  line-height: 1.6;
+}
+.sol-lit-source {
+  color: var(--sol-text-muted);
+  font-size: 12px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.sol-view-context-btn {
+  color: var(--sol-gold);
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.sol-view-context-btn:hover {
+  text-decoration: underline;
+}
+
+/* Bottom Actions */
+.sol-bottom-actions {
+  display: flex;
+  padding: 16px 20px;
+  gap: 12px;
+  border-top: 1px solid var(--sol-border);
+  background: rgba(5, 10, 20, 0.8);
+}
+.sol-action-btn {
+  flex: 1;
+  background: transparent;
+  border: 1px solid var(--sol-border);
+  color: var(--sol-text-main);
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.sol-action-btn:hover {
+  border-color: var(--sol-gold);
+  color: var(--sol-gold);
+}
+.sol-action-btn svg {
+  width: 14px; height: 14px;
+}
+
+/* Footer Quote */
+.sol-footer-quote {
+  text-align: center;
+  padding: 16px;
+  font-family: var(--font-serif-tamil, Georgia, serif);
+  color: var(--sol-gold);
+  font-size: 14px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+.sol-footer-quote .sol-lotus {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.sol-footer-quote .sol-lotus svg {
+  width: 24px; height: 24px; color: var(--sol-gold);
+}
+
+/* Error / Loading States */
+.sol-status-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  text-align: center;
+  flex: 1;
+}
+.sol-status-icon {
+  margin-bottom: 24px;
+}
+.sol-status-icon svg {
+  width: 48px; height: 48px;
+}
+.sol-status-icon.loading {
+  color: var(--sol-gold);
+}
+.sol-status-icon.error {
+  color: #ef4444;
+}
+.sol-status-title {
+  font-size: 18px;
+  color: var(--sol-text-main);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+.sol-status-desc {
+  font-size: 14px;
+  color: var(--sol-text-muted);
+  margin-bottom: 24px;
+}
+.sol-status-btn {
+  background: transparent;
+  border: 1px solid var(--sol-gold);
+  color: var(--sol-gold);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.sol-status-btn:hover {
+  background: rgba(229, 193, 88, 0.1);
+}
+
+/* Skeleton Loading */
+.sol-skeleton {
+  background: linear-gradient(90deg, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.05) 75%);
+  background-size: 200% 100%;
+  animation: solSkeletonLoading 1.5s infinite;
+  border-radius: 4px;
+}
+@keyframes solSkeletonLoading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}

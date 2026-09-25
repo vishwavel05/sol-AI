@@ -1,0 +1,712 @@
+{
+  "benchmark_name": "Thani Thamizh Akarathi Lexical Benchmark",
+  "total_cases": 60,
+  "found_cases": 1,
+  "not_found_cases": 59,
+  "coverage_percentage": 1.67,
+  "total_entries_returned": 1,
+  "category_breakdown": {
+    "Common": {
+      "total": 15,
+      "found": 1,
+      "coverage_pct": 6.67,
+      "entries_returned": 1
+    },
+    "Literary": {
+      "total": 10,
+      "found": 0,
+      "coverage_pct": 0.0,
+      "entries_returned": 0
+    },
+    "Polysemous": {
+      "total": 10,
+      "found": 0,
+      "coverage_pct": 0.0,
+      "entries_returned": 0
+    },
+    "Inflected": {
+      "total": 10,
+      "found": 0,
+      "coverage_pct": 0.0,
+      "entries_returned": 0
+    },
+    "Archaic": {
+      "total": 5,
+      "found": 0,
+      "coverage_pct": 0.0,
+      "entries_returned": 0
+    },
+    "Modern": {
+      "total": 10,
+      "found": 0,
+      "coverage_pct": 0.0,
+      "entries_returned": 0
+    }
+  },
+  "cases": [
+    {
+      "id": "L001",
+      "category": "Common",
+      "query": "வீடு",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'வீடு' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L002",
+      "category": "Common",
+      "query": "நீர்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'நீர்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L003",
+      "category": "Common",
+      "query": "மரம்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மரம்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L004",
+      "category": "Common",
+      "query": "மனிதன்",
+      "found": true,
+      "matching_headword": "மனிதன்",
+      "number_of_entries": 1,
+      "source_dictionaries": [
+        "Devaneya Pavanar Pure Tamil Dictionary"
+      ],
+      "meanings_returned": [
+        "மாந்தன்"
+      ],
+      "failure": null
+    },
+    {
+      "id": "L005",
+      "category": "Common",
+      "query": "பெண்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'பெண்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L006",
+      "category": "Common",
+      "query": "குழந்தை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'குழந்தை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L007",
+      "category": "Common",
+      "query": "நாள்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'நாள்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L008",
+      "category": "Common",
+      "query": "கல்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'கல்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L009",
+      "category": "Common",
+      "query": "மண்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மண்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L010",
+      "category": "Common",
+      "query": "கண்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'கண்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L011",
+      "category": "Common",
+      "query": "கை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'கை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L012",
+      "category": "Common",
+      "query": "தலை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'தலை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L013",
+      "category": "Common",
+      "query": "வழி",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'வழி' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L014",
+      "category": "Common",
+      "query": "உணவு",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'உணவு' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L015",
+      "category": "Common",
+      "query": "பள்ளி",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'பள்ளி' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L016",
+      "category": "Literary",
+      "query": "யாழ்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'யாழ்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L017",
+      "category": "Literary",
+      "query": "திணை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'திணை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L018",
+      "category": "Literary",
+      "query": "குறிஞ்சி",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'குறிஞ்சி' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L019",
+      "category": "Literary",
+      "query": "முல்லை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'முல்லை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L020",
+      "category": "Literary",
+      "query": "மருதம்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மருதம்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L021",
+      "category": "Literary",
+      "query": "நெய்தல்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'நெய்தல்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L022",
+      "category": "Literary",
+      "query": "பாலை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'பாலை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L023",
+      "category": "Literary",
+      "query": "அகத்திணை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'அகத்திணை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L024",
+      "category": "Literary",
+      "query": "புறத்திணை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'புறத்திணை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L025",
+      "category": "Literary",
+      "query": "தோழி",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'தோழி' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L026",
+      "category": "Polysemous",
+      "query": "அகம்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'அகம்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L027",
+      "category": "Polysemous",
+      "query": "அடி",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'அடி' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L028",
+      "category": "Polysemous",
+      "query": "ஆறு",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'ஆறு' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L029",
+      "category": "Polysemous",
+      "query": "பால்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'பால்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L030",
+      "category": "Polysemous",
+      "query": "கால்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'கால்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L031",
+      "category": "Polysemous",
+      "query": "மாலை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மாலை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L032",
+      "category": "Polysemous",
+      "query": "பொருள்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'பொருள்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L033",
+      "category": "Polysemous",
+      "query": "வாய்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'வாய்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L034",
+      "category": "Polysemous",
+      "query": "கரை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'கரை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L035",
+      "category": "Polysemous",
+      "query": "கோல்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'கோல்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L036",
+      "category": "Inflected",
+      "query": "வந்தார்கள்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'வந்தார்கள்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L037",
+      "category": "Inflected",
+      "query": "சென்றுகொண்டிருந்தான்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'சென்றுகொண்டிருந்தான்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L038",
+      "category": "Inflected",
+      "query": "மரங்களில்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மரங்களில்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L039",
+      "category": "Inflected",
+      "query": "மனதினால்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மனதினால்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L040",
+      "category": "Inflected",
+      "query": "பாடுகின்றனர்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'பாடுகின்றனர்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L041",
+      "category": "Inflected",
+      "query": "மரத்தை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மரத்தை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L042",
+      "category": "Inflected",
+      "query": "வீட்டில்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'வீட்டில்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L043",
+      "category": "Inflected",
+      "query": "மாணவர்களுக்கு",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மாணவர்களுக்கு' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L044",
+      "category": "Inflected",
+      "query": "பெண்களால்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'பெண்களால்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L045",
+      "category": "Inflected",
+      "query": "புத்தகங்களின்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'புத்தகங்களின்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L046",
+      "category": "Archaic",
+      "query": "அணங்கு",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'அணங்கு' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L047",
+      "category": "Archaic",
+      "query": "மடல்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மடல்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L048",
+      "category": "Archaic",
+      "query": "விறலி",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'விறலி' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L049",
+      "category": "Archaic",
+      "query": "வேந்தன்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'வேந்தன்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L050",
+      "category": "Archaic",
+      "query": "பரத்தை",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'பரத்தை' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L051",
+      "category": "Modern",
+      "query": "கணினி",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'கணினி' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L052",
+      "category": "Modern",
+      "query": "மென்பொருள்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மென்பொருள்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L053",
+      "category": "Modern",
+      "query": "தரவுத்தளம்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'தரவுத்தளம்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L054",
+      "category": "Modern",
+      "query": "இணையம்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'இணையம்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L055",
+      "category": "Modern",
+      "query": "செயற்கை நுண்ணறிவு",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'செயற்கை நுண்ணறிவு' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L036",
+      "category": "Modern",
+      "query": "வந்தார்கள்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'வந்தார்கள்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L037",
+      "category": "Modern",
+      "query": "சென்றுகொண்டிருந்தான்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'சென்றுகொண்டிருந்தான்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L038",
+      "category": "Modern",
+      "query": "மரங்களில்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மரங்களில்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L039",
+      "category": "Modern",
+      "query": "மனதினால்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'மனதினால்' in Thani Thamizh Akarathi"
+    },
+    {
+      "id": "L040",
+      "category": "Modern",
+      "query": "பாடுகின்றனர்",
+      "found": false,
+      "matching_headword": null,
+      "number_of_entries": 0,
+      "source_dictionaries": [],
+      "meanings_returned": [],
+      "failure": "No entry for 'பாடுகின்றனர்' in Thani Thamizh Akarathi"
+    }
+  ]
+}

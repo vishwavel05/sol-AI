@@ -1,0 +1,1047 @@
+{
+  "benchmark_name": "Tamil WordNet Lexical & Morphological Benchmark",
+  "total_cases": 60,
+  "overall_found_cases": 37,
+  "lexical_hits": 27,
+  "morphology_root_hits": 31,
+  "overall_coverage_pct": 61.67,
+  "lexical_coverage_pct": 45.0,
+  "morphology_coverage_pct": 51.67,
+  "pos_distribution": {
+    "Noun": 27,
+    "Verb": 5
+  },
+  "relation_code_distribution": {
+    "3": 24,
+    "4": 17,
+    "1": 10,
+    "5": 1,
+    "10": 1
+  },
+  "encoding_conversion_status": "100% Deterministic Transliteration to Unicode",
+  "category_breakdown": {
+    "Common": {
+      "total": 15,
+      "any_found": 11,
+      "lexical_found": 10,
+      "morph_found": 8,
+      "coverage_pct": 73.33
+    },
+    "Literary": {
+      "total": 10,
+      "any_found": 7,
+      "lexical_found": 5,
+      "morph_found": 6,
+      "coverage_pct": 70.0
+    },
+    "Polysemous": {
+      "total": 10,
+      "any_found": 10,
+      "lexical_found": 9,
+      "morph_found": 8,
+      "coverage_pct": 100.0
+    },
+    "Inflected": {
+      "total": 10,
+      "any_found": 4,
+      "lexical_found": 0,
+      "morph_found": 4,
+      "coverage_pct": 40.0
+    },
+    "Archaic": {
+      "total": 5,
+      "any_found": 3,
+      "lexical_found": 3,
+      "morph_found": 3,
+      "coverage_pct": 60.0
+    },
+    "Modern": {
+      "total": 10,
+      "any_found": 2,
+      "lexical_found": 0,
+      "morph_found": 2,
+      "coverage_pct": 20.0
+    }
+  },
+  "cases": [
+    {
+      "id": "L001",
+      "category": "Common",
+      "query": "வீடு",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "வீடு",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 2
+    },
+    {
+      "id": "L002",
+      "category": "Common",
+      "query": "நீர்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L003",
+      "category": "Common",
+      "query": "மரம்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": false,
+      "root_word_found": "மரம்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 3
+    },
+    {
+      "id": "L004",
+      "category": "Common",
+      "query": "மனிதன்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L005",
+      "category": "Common",
+      "query": "பெண்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": false,
+      "root_word_found": "பெண்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 2
+    },
+    {
+      "id": "L006",
+      "category": "Common",
+      "query": "குழந்தை",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L007",
+      "category": "Common",
+      "query": "நாள்",
+      "found": true,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": true,
+      "root_word_found": "நாள்",
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L008",
+      "category": "Common",
+      "query": "கல்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "கல்",
+      "pos_list": [
+        "Noun",
+        "Verb"
+      ],
+      "relation_codes": [
+        "3",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 5
+    },
+    {
+      "id": "L009",
+      "category": "Common",
+      "query": "மண்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "மண்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 8
+    },
+    {
+      "id": "L010",
+      "category": "Common",
+      "query": "கண்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "கண்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "1",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 5
+    },
+    {
+      "id": "L011",
+      "category": "Common",
+      "query": "கை",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "கை",
+      "pos_list": [
+        "Noun",
+        "Verb"
+      ],
+      "relation_codes": [
+        "3",
+        "1"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 6
+    },
+    {
+      "id": "L012",
+      "category": "Common",
+      "query": "தலை",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "தலை",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "1",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 11
+    },
+    {
+      "id": "L013",
+      "category": "Common",
+      "query": "வழி",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L014",
+      "category": "Common",
+      "query": "உணவு",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "உணவு",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 8
+    },
+    {
+      "id": "L015",
+      "category": "Common",
+      "query": "பள்ளி",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": false,
+      "root_word_found": "பள்ளி",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "5",
+        "3"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 3
+    },
+    {
+      "id": "L016",
+      "category": "Literary",
+      "query": "யாழ்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L017",
+      "category": "Literary",
+      "query": "திணை",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": false,
+      "root_word_found": "திணை",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 4
+    },
+    {
+      "id": "L018",
+      "category": "Literary",
+      "query": "குறிஞ்சி",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "குறிஞ்சி",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3"
+      ],
+      "corpus_frequency": 71,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 2
+    },
+    {
+      "id": "L019",
+      "category": "Literary",
+      "query": "முல்லை",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "முல்லை",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3"
+      ],
+      "corpus_frequency": 80,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 3
+    },
+    {
+      "id": "L020",
+      "category": "Literary",
+      "query": "மருதம்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "மருதம்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3"
+      ],
+      "corpus_frequency": 32,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 2
+    },
+    {
+      "id": "L021",
+      "category": "Literary",
+      "query": "நெய்தல்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L022",
+      "category": "Literary",
+      "query": "பாலை",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "பால்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 3
+    },
+    {
+      "id": "L023",
+      "category": "Literary",
+      "query": "அகத்திணை",
+      "found": true,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": true,
+      "root_word_found": "அகத்திணை",
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L024",
+      "category": "Literary",
+      "query": "புறத்திணை",
+      "found": true,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": true,
+      "root_word_found": "புறத்திணை",
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L025",
+      "category": "Literary",
+      "query": "தோழி",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L026",
+      "category": "Polysemous",
+      "query": "அகம்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "அகம்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "4"
+      ],
+      "corpus_frequency": 31,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 2
+    },
+    {
+      "id": "L027",
+      "category": "Polysemous",
+      "query": "அடி",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "அடி",
+      "pos_list": [
+        "Noun",
+        "Verb"
+      ],
+      "relation_codes": [
+        "3",
+        "10",
+        "1",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 11
+    },
+    {
+      "id": "L028",
+      "category": "Polysemous",
+      "query": "ஆறு",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "ஆறு",
+      "pos_list": [
+        "Noun",
+        "Verb"
+      ],
+      "relation_codes": [
+        "3",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 5
+    },
+    {
+      "id": "L029",
+      "category": "Polysemous",
+      "query": "பால்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": false,
+      "root_word_found": "பால்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 7
+    },
+    {
+      "id": "L030",
+      "category": "Polysemous",
+      "query": "கால்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "கால்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "1",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 11
+    },
+    {
+      "id": "L031",
+      "category": "Polysemous",
+      "query": "மாலை",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "மாலை",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "1",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 9
+    },
+    {
+      "id": "L032",
+      "category": "Polysemous",
+      "query": "பொருள்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "பொருள்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "1"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 10
+    },
+    {
+      "id": "L033",
+      "category": "Polysemous",
+      "query": "வாய்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "வாய்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "1",
+        "4"
+      ],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 7
+    },
+    {
+      "id": "L034",
+      "category": "Polysemous",
+      "query": "கரை",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": false,
+      "root_word_found": "கரை",
+      "pos_list": [
+        "Noun",
+        "Verb"
+      ],
+      "relation_codes": [
+        "3",
+        "1"
+      ],
+      "corpus_frequency": 81,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 4
+    },
+    {
+      "id": "L035",
+      "category": "Polysemous",
+      "query": "கோல்",
+      "found": true,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": true,
+      "root_word_found": "கோல்",
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L036",
+      "category": "Inflected",
+      "query": "வந்தார்கள்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L037",
+      "category": "Inflected",
+      "query": "சென்றுகொண்டிருந்தான்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L038",
+      "category": "Inflected",
+      "query": "மரங்களில்",
+      "found": true,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": true,
+      "root_word_found": "மரம்",
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L039",
+      "category": "Inflected",
+      "query": "மனதினால்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L040",
+      "category": "Inflected",
+      "query": "பாடுகின்றனர்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L041",
+      "category": "Inflected",
+      "query": "மரத்தை",
+      "found": true,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": true,
+      "root_word_found": "மரம்",
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L042",
+      "category": "Inflected",
+      "query": "வீட்டில்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L043",
+      "category": "Inflected",
+      "query": "மாணவர்களுக்கு",
+      "found": true,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": true,
+      "root_word_found": "மாணவர்",
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L044",
+      "category": "Inflected",
+      "query": "பெண்களால்",
+      "found": true,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": true,
+      "root_word_found": "பெண்",
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L045",
+      "category": "Inflected",
+      "query": "புத்தகங்களின்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L046",
+      "category": "Archaic",
+      "query": "அணங்கு",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "அணங்கு",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "4"
+      ],
+      "corpus_frequency": 12,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 1
+    },
+    {
+      "id": "L047",
+      "category": "Archaic",
+      "query": "மடல்",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "மடல்",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3",
+        "1",
+        "4"
+      ],
+      "corpus_frequency": 37,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 7
+    },
+    {
+      "id": "L048",
+      "category": "Archaic",
+      "query": "விறலி",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L049",
+      "category": "Archaic",
+      "query": "வேந்தன்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L050",
+      "category": "Archaic",
+      "query": "பரத்தை",
+      "found": true,
+      "has_lexical_entry": true,
+      "has_morphology_mapping": true,
+      "root_word_found": "பரத்தை",
+      "pos_list": [
+        "Noun"
+      ],
+      "relation_codes": [
+        "3"
+      ],
+      "corpus_frequency": 7,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 2
+    },
+    {
+      "id": "L051",
+      "category": "Modern",
+      "query": "கணினி",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L052",
+      "category": "Modern",
+      "query": "மென்பொருள்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L053",
+      "category": "Modern",
+      "query": "தரவுத்தளம்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L054",
+      "category": "Modern",
+      "query": "இணையம்",
+      "found": true,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": true,
+      "root_word_found": "இணையம்",
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L055",
+      "category": "Modern",
+      "query": "செயற்கை நுண்ணறிவு",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L036",
+      "category": "Modern",
+      "query": "வந்தார்கள்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L037",
+      "category": "Modern",
+      "query": "சென்றுகொண்டிருந்தான்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L038",
+      "category": "Modern",
+      "query": "மரங்களில்",
+      "found": true,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": true,
+      "root_word_found": "மரம்",
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "CONVERTED",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L039",
+      "category": "Modern",
+      "query": "மனதினால்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    },
+    {
+      "id": "L040",
+      "category": "Modern",
+      "query": "பாடுகின்றனர்",
+      "found": false,
+      "has_lexical_entry": false,
+      "has_morphology_mapping": false,
+      "root_word_found": null,
+      "pos_list": [],
+      "relation_codes": [],
+      "corpus_frequency": null,
+      "transliteration_status": "N/A",
+      "twn_entry_count": 0
+    }
+  ]
+}

@@ -1,0 +1,1546 @@
+{
+  "benchmark_name": "Sentamizh Literary Evidence Retrieval Benchmark",
+  "total_cases": 60,
+  "overall_found_cases": 36,
+  "not_found_cases": 24,
+  "total_literary_occurrences": 1840,
+  "overall_coverage_pct": 60.0,
+  "work_distribution_in_hits": {
+    "Divya Prabandham": 28,
+    "Manimekalai": 29,
+    "Thevaram": 9,
+    "Thirumanthiram": 5,
+    "Kuruntokai": 22,
+    "Natrinai": 30,
+    "Purananuru": 11,
+    "Silappatikaram": 11,
+    "Akananuru": 19
+  },
+  "category_breakdown": {
+    "Common": {
+      "total": 15,
+      "found": 13,
+      "total_occurrences": 647,
+      "coverage_pct": 86.67
+    },
+    "Literary": {
+      "total": 10,
+      "found": 8,
+      "total_occurrences": 497,
+      "coverage_pct": 80.0
+    },
+    "Polysemous": {
+      "total": 10,
+      "found": 10,
+      "total_occurrences": 580,
+      "coverage_pct": 100.0
+    },
+    "Inflected": {
+      "total": 10,
+      "found": 0,
+      "total_occurrences": 0,
+      "coverage_pct": 0.0
+    },
+    "Archaic": {
+      "total": 5,
+      "found": 5,
+      "total_occurrences": 116,
+      "coverage_pct": 100.0
+    },
+    "Modern": {
+      "total": 10,
+      "found": 0,
+      "total_occurrences": 0,
+      "coverage_pct": 0.0
+    }
+  },
+  "cases": [
+    {
+      "id": "L001",
+      "category": "Common",
+      "query": "வீடு",
+      "found": true,
+      "occurrences_count": 22,
+      "works": [
+        "Divya Prabandham",
+        "Manimekalai",
+        "Thevaram",
+        "Thirumanthiram"
+      ],
+      "example_verse_ids": [
+        "DIVA-0481",
+        "DIVA-1989",
+        "DIVA-2393",
+        "DIVA-2844",
+        "DIVA-3041"
+      ],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 22,
+        "pann": 6,
+        "rasa_primary": 16,
+        "cultural_context": 22,
+        "english": 0
+      }
+    },
+    {
+      "id": "L002",
+      "category": "Common",
+      "query": "நீர்",
+      "found": true,
+      "occurrences_count": 127,
+      "works": [
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai",
+        "Purananuru"
+      ],
+      "example_verse_ids": [
+        "DIVA-0478",
+        "DIVA-1479",
+        "DIVA-2529",
+        "DIVA-3179",
+        "DIVA-3180"
+      ],
+      "annotation_availability": {
+        "thinai": 86,
+        "turai": 0,
+        "speaker_role": 127,
+        "pann": 0,
+        "rasa_primary": 9,
+        "cultural_context": 127,
+        "english": 85
+      }
+    },
+    {
+      "id": "L003",
+      "category": "Common",
+      "query": "மரம்",
+      "found": true,
+      "occurrences_count": 24,
+      "works": [
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai",
+        "Silappatikaram"
+      ],
+      "example_verse_ids": [
+        "KURU-155",
+        "KURU-198",
+        "KURU-214",
+        "KURU-249",
+        "KURU-352"
+      ],
+      "annotation_availability": {
+        "thinai": 11,
+        "turai": 0,
+        "speaker_role": 24,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 24,
+        "english": 11
+      }
+    },
+    {
+      "id": "L004",
+      "category": "Common",
+      "query": "மனிதன்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L005",
+      "category": "Common",
+      "query": "பெண்",
+      "found": true,
+      "occurrences_count": 3,
+      "works": [
+        "Divya Prabandham",
+        "Manimekalai"
+      ],
+      "example_verse_ids": [
+        "DIVA-0480",
+        "DIVA-0503",
+        "MANI-0333"
+      ],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 3,
+        "pann": 0,
+        "rasa_primary": 2,
+        "cultural_context": 3,
+        "english": 0
+      }
+    },
+    {
+      "id": "L006",
+      "category": "Common",
+      "query": "குழந்தை",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L007",
+      "category": "Common",
+      "query": "நாள்",
+      "found": true,
+      "occurrences_count": 110,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "AKAM-332",
+        "DIVA-0483",
+        "DIVA-3751",
+        "KURU-035",
+        "KURU-104"
+      ],
+      "annotation_availability": {
+        "thinai": 45,
+        "turai": 1,
+        "speaker_role": 109,
+        "pann": 0,
+        "rasa_primary": 2,
+        "cultural_context": 110,
+        "english": 43
+      }
+    },
+    {
+      "id": "L008",
+      "category": "Common",
+      "query": "கல்",
+      "found": true,
+      "occurrences_count": 43,
+      "works": [
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "DIVA-2651",
+        "KURU-066",
+        "KURU-071",
+        "KURU-076",
+        "KURU-095"
+      ],
+      "annotation_availability": {
+        "thinai": 37,
+        "turai": 0,
+        "speaker_role": 43,
+        "pann": 0,
+        "rasa_primary": 1,
+        "cultural_context": 43,
+        "english": 37
+      }
+    },
+    {
+      "id": "L009",
+      "category": "Common",
+      "query": "மண்",
+      "found": true,
+      "occurrences_count": 24,
+      "works": [
+        "Divya Prabandham",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "DIVA-0799",
+        "DIVA-0856",
+        "DIVA-2090",
+        "DIVA-2270",
+        "DIVA-2371"
+      ],
+      "annotation_availability": {
+        "thinai": 5,
+        "turai": 0,
+        "speaker_role": 24,
+        "pann": 0,
+        "rasa_primary": 7,
+        "cultural_context": 24,
+        "english": 5
+      }
+    },
+    {
+      "id": "L010",
+      "category": "Common",
+      "query": "கண்",
+      "found": true,
+      "occurrences_count": 127,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai",
+        "Purananuru",
+        "Thirumanthiram"
+      ],
+      "example_verse_ids": [
+        "AKAM-144",
+        "AKAM-304",
+        "DIVA-0476",
+        "DIVA-0482",
+        "DIVA-0494"
+      ],
+      "annotation_availability": {
+        "thinai": 68,
+        "turai": 3,
+        "speaker_role": 125,
+        "pann": 0,
+        "rasa_primary": 12,
+        "cultural_context": 127,
+        "english": 65
+      }
+    },
+    {
+      "id": "L011",
+      "category": "Common",
+      "query": "கை",
+      "found": true,
+      "occurrences_count": 68,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "AKAM-037",
+        "DIVA-0475",
+        "DIVA-0477",
+        "DIVA-0480",
+        "DIVA-1264"
+      ],
+      "annotation_availability": {
+        "thinai": 36,
+        "turai": 1,
+        "speaker_role": 67,
+        "pann": 0,
+        "rasa_primary": 8,
+        "cultural_context": 68,
+        "english": 35
+      }
+    },
+    {
+      "id": "L012",
+      "category": "Common",
+      "query": "தலை",
+      "found": true,
+      "occurrences_count": 18,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "AKAM-332",
+        "DIVA-0485",
+        "DIVA-3882",
+        "KURU-382",
+        "MANI-0060"
+      ],
+      "annotation_availability": {
+        "thinai": 5,
+        "turai": 1,
+        "speaker_role": 17,
+        "pann": 0,
+        "rasa_primary": 2,
+        "cultural_context": 18,
+        "english": 4
+      }
+    },
+    {
+      "id": "L013",
+      "category": "Common",
+      "query": "வழி",
+      "found": true,
+      "occurrences_count": 15,
+      "works": [
+        "Divya Prabandham",
+        "Manimekalai",
+        "Natrinai",
+        "Purananuru"
+      ],
+      "example_verse_ids": [
+        "DIVA-0500",
+        "DIVA-2156",
+        "DIVA-2640",
+        "MANI-0048",
+        "MANI-0150"
+      ],
+      "annotation_availability": {
+        "thinai": 1,
+        "turai": 0,
+        "speaker_role": 15,
+        "pann": 0,
+        "rasa_primary": 3,
+        "cultural_context": 15,
+        "english": 1
+      }
+    },
+    {
+      "id": "L014",
+      "category": "Common",
+      "query": "உணவு",
+      "found": true,
+      "occurrences_count": 2,
+      "works": [
+        "Manimekalai",
+        "Silappatikaram"
+      ],
+      "example_verse_ids": [
+        "MANI-0194",
+        "SILA-010"
+      ],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 2,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 2,
+        "english": 0
+      }
+    },
+    {
+      "id": "L015",
+      "category": "Common",
+      "query": "பள்ளி",
+      "found": true,
+      "occurrences_count": 64,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai",
+        "Purananuru",
+        "Silappatikaram",
+        "Thevaram"
+      ],
+      "example_verse_ids": [
+        "AKAM-093",
+        "AKAM-107",
+        "AKAM-302",
+        "DIVA-0534",
+        "DIVA-0647"
+      ],
+      "annotation_availability": {
+        "thinai": 8,
+        "turai": 5,
+        "speaker_role": 61,
+        "pann": 12,
+        "rasa_primary": 48,
+        "cultural_context": 64,
+        "english": 5
+      }
+    },
+    {
+      "id": "L016",
+      "category": "Literary",
+      "query": "யாழ்",
+      "found": true,
+      "occurrences_count": 6,
+      "works": [
+        "Manimekalai",
+        "Natrinai",
+        "Silappatikaram"
+      ],
+      "example_verse_ids": [
+        "MANI-0214",
+        "MANI-0238",
+        "NATR-139",
+        "NATR-176",
+        "NATR-186"
+      ],
+      "annotation_availability": {
+        "thinai": 3,
+        "turai": 0,
+        "speaker_role": 6,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 6,
+        "english": 3
+      }
+    },
+    {
+      "id": "L017",
+      "category": "Literary",
+      "query": "திணை",
+      "found": true,
+      "occurrences_count": 1,
+      "works": [
+        "Silappatikaram"
+      ],
+      "example_verse_ids": [
+        "SILA-007"
+      ],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 1,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 1,
+        "english": 0
+      }
+    },
+    {
+      "id": "L018",
+      "category": "Literary",
+      "query": "குறிஞ்சி",
+      "found": true,
+      "occurrences_count": 8,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Natrinai",
+        "Purananuru"
+      ],
+      "example_verse_ids": [
+        "AKAM-102",
+        "AKAM-282",
+        "DIVA-1049",
+        "DIVA-1359",
+        "NATR-116"
+      ],
+      "annotation_availability": {
+        "thinai": 5,
+        "turai": 2,
+        "speaker_role": 6,
+        "pann": 0,
+        "rasa_primary": 2,
+        "cultural_context": 8,
+        "english": 3
+      }
+    },
+    {
+      "id": "L019",
+      "category": "Literary",
+      "query": "முல்லை",
+      "found": true,
+      "occurrences_count": 51,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Natrinai",
+        "Purananuru",
+        "Silappatikaram",
+        "Thevaram"
+      ],
+      "example_verse_ids": [
+        "AKAM-004",
+        "AKAM-014",
+        "AKAM-043",
+        "AKAM-074",
+        "AKAM-084"
+      ],
+      "annotation_availability": {
+        "thinai": 33,
+        "turai": 19,
+        "speaker_role": 33,
+        "pann": 8,
+        "rasa_primary": 13,
+        "cultural_context": 51,
+        "english": 15
+      }
+    },
+    {
+      "id": "L020",
+      "category": "Literary",
+      "query": "மருதம்",
+      "found": true,
+      "occurrences_count": 5,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Purananuru"
+      ],
+      "example_verse_ids": [
+        "AKAM-366",
+        "DIVA-1144",
+        "DIVA-1350",
+        "DIVA-1492",
+        "PURN-149"
+      ],
+      "annotation_availability": {
+        "thinai": 1,
+        "turai": 2,
+        "speaker_role": 4,
+        "pann": 0,
+        "rasa_primary": 3,
+        "cultural_context": 5,
+        "english": 0
+      }
+    },
+    {
+      "id": "L021",
+      "category": "Literary",
+      "query": "நெய்தல்",
+      "found": true,
+      "occurrences_count": 31,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai",
+        "Thevaram"
+      ],
+      "example_verse_ids": [
+        "AKAM-070",
+        "AKAM-083",
+        "AKAM-119",
+        "AKAM-130",
+        "AKAM-160"
+      ],
+      "annotation_availability": {
+        "thinai": 28,
+        "turai": 11,
+        "speaker_role": 20,
+        "pann": 1,
+        "rasa_primary": 2,
+        "cultural_context": 31,
+        "english": 17
+      }
+    },
+    {
+      "id": "L022",
+      "category": "Literary",
+      "query": "பாலை",
+      "found": true,
+      "occurrences_count": 11,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Silappatikaram",
+        "Thevaram"
+      ],
+      "example_verse_ids": [
+        "AKAM-005",
+        "AKAM-267",
+        "AKAM-291",
+        "AKAM-355",
+        "DIVA-1574"
+      ],
+      "annotation_availability": {
+        "thinai": 4,
+        "turai": 4,
+        "speaker_role": 7,
+        "pann": 2,
+        "rasa_primary": 5,
+        "cultural_context": 11,
+        "english": 0
+      }
+    },
+    {
+      "id": "L023",
+      "category": "Literary",
+      "query": "அகத்திணை",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L024",
+      "category": "Literary",
+      "query": "புறத்திணை",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L025",
+      "category": "Literary",
+      "query": "தோழி",
+      "found": true,
+      "occurrences_count": 384,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai",
+        "Purananuru"
+      ],
+      "example_verse_ids": [
+        "AKAM-001",
+        "AKAM-015",
+        "AKAM-018",
+        "AKAM-020",
+        "AKAM-023"
+      ],
+      "annotation_availability": {
+        "thinai": 375,
+        "turai": 119,
+        "speaker_role": 266,
+        "pann": 0,
+        "rasa_primary": 7,
+        "cultural_context": 384,
+        "english": 257
+      }
+    },
+    {
+      "id": "L026",
+      "category": "Polysemous",
+      "query": "அகம்",
+      "found": true,
+      "occurrences_count": 20,
+      "works": [
+        "Akananuru",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "AKAM-208",
+        "AKAM-297",
+        "KURU-137",
+        "KURU-346",
+        "MANI-0069"
+      ],
+      "annotation_availability": {
+        "thinai": 13,
+        "turai": 2,
+        "speaker_role": 18,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 20,
+        "english": 11
+      }
+    },
+    {
+      "id": "L027",
+      "category": "Polysemous",
+      "query": "அடி",
+      "found": true,
+      "occurrences_count": 71,
+      "works": [
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "DIVA-0494",
+        "DIVA-0497",
+        "DIVA-0503",
+        "DIVA-0939",
+        "DIVA-0941"
+      ],
+      "annotation_availability": {
+        "thinai": 10,
+        "turai": 0,
+        "speaker_role": 71,
+        "pann": 0,
+        "rasa_primary": 20,
+        "cultural_context": 71,
+        "english": 10
+      }
+    },
+    {
+      "id": "L028",
+      "category": "Polysemous",
+      "query": "ஆறு",
+      "found": true,
+      "occurrences_count": 27,
+      "works": [
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai",
+        "Thevaram",
+        "Thirumanthiram"
+      ],
+      "example_verse_ids": [
+        "DIVA-2115",
+        "DIVA-2385",
+        "DIVA-3230",
+        "DIVA-3487",
+        "DIVA-3492"
+      ],
+      "annotation_availability": {
+        "thinai": 6,
+        "turai": 0,
+        "speaker_role": 27,
+        "pann": 3,
+        "rasa_primary": 10,
+        "cultural_context": 27,
+        "english": 6
+      }
+    },
+    {
+      "id": "L029",
+      "category": "Polysemous",
+      "query": "பால்",
+      "found": true,
+      "occurrences_count": 43,
+      "works": [
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "DIVA-0485",
+        "DIVA-0494",
+        "DIVA-0499",
+        "DIVA-2149",
+        "DIVA-2383"
+      ],
+      "annotation_availability": {
+        "thinai": 23,
+        "turai": 0,
+        "speaker_role": 43,
+        "pann": 0,
+        "rasa_primary": 7,
+        "cultural_context": 43,
+        "english": 22
+      }
+    },
+    {
+      "id": "L030",
+      "category": "Polysemous",
+      "query": "கால்",
+      "found": true,
+      "occurrences_count": 63,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "AKAM-352",
+        "DIVA-0491",
+        "DIVA-0492",
+        "DIVA-2146",
+        "DIVA-2605"
+      ],
+      "annotation_availability": {
+        "thinai": 39,
+        "turai": 1,
+        "speaker_role": 62,
+        "pann": 0,
+        "rasa_primary": 7,
+        "cultural_context": 63,
+        "english": 38
+      }
+    },
+    {
+      "id": "L031",
+      "category": "Polysemous",
+      "query": "மாலை",
+      "found": true,
+      "occurrences_count": 206,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai",
+        "Purananuru",
+        "Silappatikaram",
+        "Thevaram",
+        "Thirumanthiram"
+      ],
+      "example_verse_ids": [
+        "AKAM-009",
+        "AKAM-031",
+        "AKAM-040",
+        "AKAM-047",
+        "AKAM-064"
+      ],
+      "annotation_availability": {
+        "thinai": 62,
+        "turai": 36,
+        "speaker_role": 178,
+        "pann": 43,
+        "rasa_primary": 114,
+        "cultural_context": 206,
+        "english": 34
+      }
+    },
+    {
+      "id": "L032",
+      "category": "Polysemous",
+      "query": "பொருள்",
+      "found": true,
+      "occurrences_count": 62,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "AKAM-161",
+        "AKAM-235",
+        "DIVA-0502",
+        "DIVA-2221",
+        "DIVA-3461"
+      ],
+      "annotation_availability": {
+        "thinai": 15,
+        "turai": 2,
+        "speaker_role": 60,
+        "pann": 0,
+        "rasa_primary": 3,
+        "cultural_context": 62,
+        "english": 13
+      }
+    },
+    {
+      "id": "L033",
+      "category": "Polysemous",
+      "query": "வாய்",
+      "found": true,
+      "occurrences_count": 50,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "AKAM-127",
+        "DIVA-0483",
+        "DIVA-0485",
+        "DIVA-0486",
+        "DIVA-0487"
+      ],
+      "annotation_availability": {
+        "thinai": 18,
+        "turai": 1,
+        "speaker_role": 49,
+        "pann": 0,
+        "rasa_primary": 13,
+        "cultural_context": 50,
+        "english": 17
+      }
+    },
+    {
+      "id": "L034",
+      "category": "Polysemous",
+      "query": "கரை",
+      "found": true,
+      "occurrences_count": 12,
+      "works": [
+        "Divya Prabandham",
+        "Manimekalai",
+        "Natrinai",
+        "Thevaram"
+      ],
+      "example_verse_ids": [
+        "DIVA-1628",
+        "MANI-0044",
+        "MANI-0345",
+        "MANI-0348",
+        "NATR-033"
+      ],
+      "annotation_availability": {
+        "thinai": 7,
+        "turai": 0,
+        "speaker_role": 11,
+        "pann": 1,
+        "rasa_primary": 2,
+        "cultural_context": 12,
+        "english": 7
+      }
+    },
+    {
+      "id": "L035",
+      "category": "Polysemous",
+      "query": "கோல்",
+      "found": true,
+      "occurrences_count": 26,
+      "works": [
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "KURU-233",
+        "KURU-298",
+        "KURU-301",
+        "KURU-335",
+        "KURU-347"
+      ],
+      "annotation_availability": {
+        "thinai": 20,
+        "turai": 0,
+        "speaker_role": 26,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 26,
+        "english": 20
+      }
+    },
+    {
+      "id": "L036",
+      "category": "Inflected",
+      "query": "வந்தார்கள்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L037",
+      "category": "Inflected",
+      "query": "சென்றுகொண்டிருந்தான்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L038",
+      "category": "Inflected",
+      "query": "மரங்களில்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L039",
+      "category": "Inflected",
+      "query": "மனதினால்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L040",
+      "category": "Inflected",
+      "query": "பாடுகின்றனர்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L041",
+      "category": "Inflected",
+      "query": "மரத்தை",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L042",
+      "category": "Inflected",
+      "query": "வீட்டில்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L043",
+      "category": "Inflected",
+      "query": "மாணவர்களுக்கு",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L044",
+      "category": "Inflected",
+      "query": "பெண்களால்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L045",
+      "category": "Inflected",
+      "query": "புத்தகங்களின்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L046",
+      "category": "Archaic",
+      "query": "அணங்கு",
+      "found": true,
+      "occurrences_count": 13,
+      "works": [
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai",
+        "Silappatikaram"
+      ],
+      "example_verse_ids": [
+        "DIVA-2738",
+        "DIVA-2745",
+        "KURU-308",
+        "MANI-0031",
+        "MANI-0204"
+      ],
+      "annotation_availability": {
+        "thinai": 6,
+        "turai": 0,
+        "speaker_role": 13,
+        "pann": 0,
+        "rasa_primary": 2,
+        "cultural_context": 13,
+        "english": 6
+      }
+    },
+    {
+      "id": "L047",
+      "category": "Archaic",
+      "query": "மடல்",
+      "found": true,
+      "occurrences_count": 26,
+      "works": [
+        "Divya Prabandham",
+        "Kuruntokai",
+        "Manimekalai",
+        "Natrinai"
+      ],
+      "example_verse_ids": [
+        "DIVA-2672",
+        "DIVA-2712",
+        "DIVA-2790",
+        "KURU-081",
+        "KURU-177"
+      ],
+      "annotation_availability": {
+        "thinai": 18,
+        "turai": 0,
+        "speaker_role": 26,
+        "pann": 0,
+        "rasa_primary": 3,
+        "cultural_context": 26,
+        "english": 18
+      }
+    },
+    {
+      "id": "L048",
+      "category": "Archaic",
+      "query": "விறலி",
+      "found": true,
+      "occurrences_count": 8,
+      "works": [
+        "Akananuru",
+        "Natrinai",
+        "Purananuru"
+      ],
+      "example_verse_ids": [
+        "AKAM-352",
+        "NATR-328",
+        "PURN-064",
+        "PURN-089",
+        "PURN-103"
+      ],
+      "annotation_availability": {
+        "thinai": 2,
+        "turai": 6,
+        "speaker_role": 7,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 8,
+        "english": 1
+      }
+    },
+    {
+      "id": "L049",
+      "category": "Archaic",
+      "query": "வேந்தன்",
+      "found": true,
+      "occurrences_count": 63,
+      "works": [
+        "Akananuru",
+        "Divya Prabandham",
+        "Manimekalai",
+        "Natrinai",
+        "Purananuru",
+        "Silappatikaram",
+        "Thevaram",
+        "Thirumanthiram"
+      ],
+      "example_verse_ids": [
+        "AKAM-024",
+        "AKAM-084",
+        "AKAM-100",
+        "AKAM-109",
+        "AKAM-164"
+      ],
+      "annotation_availability": {
+        "thinai": 12,
+        "turai": 13,
+        "speaker_role": 52,
+        "pann": 4,
+        "rasa_primary": 23,
+        "cultural_context": 63,
+        "english": 1
+      }
+    },
+    {
+      "id": "L050",
+      "category": "Archaic",
+      "query": "பரத்தை",
+      "found": true,
+      "occurrences_count": 6,
+      "works": [
+        "Akananuru",
+        "Natrinai",
+        "Silappatikaram"
+      ],
+      "example_verse_ids": [
+        "AKAM-166",
+        "AKAM-256",
+        "NATR-225",
+        "NATR-310",
+        "NATR-360"
+      ],
+      "annotation_availability": {
+        "thinai": 5,
+        "turai": 2,
+        "speaker_role": 4,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 6,
+        "english": 3
+      }
+    },
+    {
+      "id": "L051",
+      "category": "Modern",
+      "query": "கணினி",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L052",
+      "category": "Modern",
+      "query": "மென்பொருள்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L053",
+      "category": "Modern",
+      "query": "தரவுத்தளம்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L054",
+      "category": "Modern",
+      "query": "இணையம்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L055",
+      "category": "Modern",
+      "query": "செயற்கை நுண்ணறிவு",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L036",
+      "category": "Modern",
+      "query": "வந்தார்கள்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L037",
+      "category": "Modern",
+      "query": "சென்றுகொண்டிருந்தான்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L038",
+      "category": "Modern",
+      "query": "மரங்களில்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L039",
+      "category": "Modern",
+      "query": "மனதினால்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    },
+    {
+      "id": "L040",
+      "category": "Modern",
+      "query": "பாடுகின்றனர்",
+      "found": false,
+      "occurrences_count": 0,
+      "works": [],
+      "example_verse_ids": [],
+      "annotation_availability": {
+        "thinai": 0,
+        "turai": 0,
+        "speaker_role": 0,
+        "pann": 0,
+        "rasa_primary": 0,
+        "cultural_context": 0,
+        "english": 0
+      }
+    }
+  ]
+}

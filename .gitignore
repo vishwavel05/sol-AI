@@ -1,0 +1,39 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node & Build
+node_modules/
+.next/
+
+# Python Virtual Env
+venv/
+.venv/
+
+
+# Large Data Files
+data/processed/
+data/raw/
+

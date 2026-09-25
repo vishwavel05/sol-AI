@@ -1,0 +1,4450 @@
+{
+  "benchmark_name": "SOL AI Unified Retrieval Benchmark",
+  "total_cases": 61,
+  "cases_with_any_evidence": 59,
+  "cases_with_2plus_resources": 49,
+  "cases_with_3plus_resources": 38,
+  "cases_with_4_resources": 0,
+  "morphology_evidence_cases": 59,
+  "lexical_evidence_cases": 36,
+  "literary_evidence_cases": 43,
+  "cross_resource_lemma_agreement_cases": 49,
+  "cross_resource_conflicts_cases": 21,
+  "guesser_only_cases": 7,
+  "category_breakdown": {
+    "Common": {
+      "total": 15,
+      "any_evidence": 15,
+      "multi_2plus": 14,
+      "multi_3plus": 11,
+      "lemma_agreement": 14,
+      "literary_evidence": 13
+    },
+    "Literary": {
+      "total": 10,
+      "any_evidence": 10,
+      "multi_2plus": 10,
+      "multi_3plus": 5,
+      "lemma_agreement": 10,
+      "literary_evidence": 8
+    },
+    "Polysemous": {
+      "total": 10,
+      "any_evidence": 10,
+      "multi_2plus": 10,
+      "multi_3plus": 10,
+      "lemma_agreement": 10,
+      "literary_evidence": 10
+    },
+    "Inflected": {
+      "total": 10,
+      "any_evidence": 10,
+      "multi_2plus": 7,
+      "multi_3plus": 6,
+      "lemma_agreement": 7,
+      "literary_evidence": 5
+    },
+    "Archaic/Rare": {
+      "total": 5,
+      "any_evidence": 5,
+      "multi_2plus": 5,
+      "multi_3plus": 4,
+      "lemma_agreement": 5,
+      "literary_evidence": 5
+    },
+    "Modern/Technical": {
+      "total": 5,
+      "any_evidence": 4,
+      "multi_2plus": 1,
+      "multi_3plus": 0,
+      "lemma_agreement": 1,
+      "literary_evidence": 0
+    },
+    "Morphology": {
+      "total": 5,
+      "any_evidence": 5,
+      "multi_2plus": 2,
+      "multi_3plus": 2,
+      "lemma_agreement": 2,
+      "literary_evidence": 2
+    },
+    "General": {
+      "total": 1,
+      "any_evidence": 0,
+      "multi_2plus": 0,
+      "multi_3plus": 0,
+      "lemma_agreement": 0,
+      "literary_evidence": 0
+    }
+  },
+  "cases": [
+    {
+      "benchmark_id": "Literary words",
+      "category": "General",
+      "query": "10",
+      "normalized_query": "10",
+      "lemma_candidates": [],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [],
+      "evidence_count": 0,
+      "ThamizhiMorph_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "core_count": 0,
+        "guesser_count": 0,
+        "lemmas": []
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {},
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L001",
+      "category": "Common",
+      "query": "வீடு",
+      "normalized_query": "வீடு",
+      "lemma_candidates": [
+        "வீடு"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 26,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "வீடு"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 2,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 22,
+        "works": [
+          "Divya Prabandham",
+          "Manimekalai",
+          "Thevaram",
+          "Thirumanthiram"
+        ],
+        "verse_ids": [
+          "DIVA-0481",
+          "DIVA-1989",
+          "DIVA-2393",
+          "DIVA-2844",
+          "DIVA-3041"
+        ]
+      },
+      "cross_resource_support": {
+        "வீடு": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L002",
+      "category": "Common",
+      "query": "நீர்",
+      "normalized_query": "நீர்",
+      "lemma_candidates": [
+        "நீர்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 128,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "நீர்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 127,
+        "works": [
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Purananuru"
+        ],
+        "verse_ids": [
+          "DIVA-0478",
+          "DIVA-1479",
+          "DIVA-2529",
+          "DIVA-3179",
+          "DIVA-3180"
+        ]
+      },
+      "cross_resource_support": {
+        "நீர்": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L003",
+      "category": "Common",
+      "query": "மரம்",
+      "normalized_query": "மரம்",
+      "lemma_candidates": [
+        "மரம்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 28,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "மரம்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 3,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 24,
+        "works": [
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Silappatikaram"
+        ],
+        "verse_ids": [
+          "KURU-155",
+          "KURU-198",
+          "KURU-214",
+          "KURU-249",
+          "KURU-352"
+        ]
+      },
+      "cross_resource_support": {
+        "மரம்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L004",
+      "category": "Common",
+      "query": "மனிதன்",
+      "normalized_query": "மனிதன்",
+      "lemma_candidates": [
+        "மனி",
+        "மனிதன்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi"
+      ],
+      "evidence_count": 3,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 1,
+        "guesser_count": 1,
+        "lemmas": [
+          "மனி",
+          "மனிதன்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "headwords": [
+          "மனிதன்"
+        ],
+        "meanings": [
+          "மாந்தன்"
+        ]
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "மனி": [
+          "ThamizhiMorph"
+        ],
+        "மனிதன்": [
+          "ThamizhiMorph",
+          "Thani Thamizh Akarathi"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L005",
+      "category": "Common",
+      "query": "பெண்",
+      "normalized_query": "பெண்",
+      "lemma_candidates": [
+        "பெண்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 6,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "பெண்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "lexical_count": 2,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "works": [
+          "Divya Prabandham",
+          "Manimekalai"
+        ],
+        "verse_ids": [
+          "DIVA-0480",
+          "DIVA-0503",
+          "MANI-0333"
+        ]
+      },
+      "cross_resource_support": {
+        "பெண்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L006",
+      "category": "Common",
+      "query": "குழந்தை",
+      "normalized_query": "குழந்தை",
+      "lemma_candidates": [
+        "குழந்தை"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 1,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "குழந்தை"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "குழந்தை": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L007",
+      "category": "Common",
+      "query": "நாள்",
+      "normalized_query": "நாள்",
+      "lemma_candidates": [
+        "நாள்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 112,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "நாள்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "lexical_count": 0,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 110,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "AKAM-332",
+          "DIVA-0483",
+          "DIVA-3751",
+          "KURU-035",
+          "KURU-104"
+        ]
+      },
+      "cross_resource_support": {
+        "நாள்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L008",
+      "category": "Common",
+      "query": "கல்",
+      "normalized_query": "கல்",
+      "lemma_candidates": [
+        "கல்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 50,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "கல்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 6,
+        "lexical_count": 5,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 43,
+        "works": [
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "DIVA-2651",
+          "KURU-066",
+          "KURU-071",
+          "KURU-076",
+          "KURU-095"
+        ]
+      },
+      "cross_resource_support": {
+        "கல்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L009",
+      "category": "Common",
+      "query": "மண்",
+      "normalized_query": "மண்",
+      "lemma_candidates": [
+        "மண்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 34,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "மண்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 9,
+        "lexical_count": 8,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 24,
+        "works": [
+          "Divya Prabandham",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "DIVA-0799",
+          "DIVA-0856",
+          "DIVA-2090",
+          "DIVA-2270",
+          "DIVA-2371"
+        ]
+      },
+      "cross_resource_support": {
+        "மண்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L010",
+      "category": "Common",
+      "query": "கண்",
+      "normalized_query": "கண்",
+      "lemma_candidates": [
+        "கண்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 134,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "கண்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 6,
+        "lexical_count": 5,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "1",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 127,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Purananuru",
+          "Thirumanthiram"
+        ],
+        "verse_ids": [
+          "AKAM-144",
+          "AKAM-304",
+          "DIVA-0476",
+          "DIVA-0482",
+          "DIVA-0494"
+        ]
+      },
+      "cross_resource_support": {
+        "கண்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L011",
+      "category": "Common",
+      "query": "கை",
+      "normalized_query": "கை",
+      "lemma_candidates": [
+        "கை"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 76,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "கை"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 7,
+        "lexical_count": 6,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "1",
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 68,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "AKAM-037",
+          "DIVA-0475",
+          "DIVA-0477",
+          "DIVA-0480",
+          "DIVA-1264"
+        ]
+      },
+      "cross_resource_support": {
+        "கை": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L012",
+      "category": "Common",
+      "query": "தலை",
+      "normalized_query": "தலை",
+      "lemma_candidates": [
+        "த",
+        "தலை"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 57,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 1,
+        "guesser_count": 1,
+        "lemmas": [
+          "த",
+          "தலை"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 13,
+        "lexical_count": 11,
+        "morphology_count": 2,
+        "frequency_count": 0,
+        "relation_codes": [
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 42,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Purananuru"
+        ],
+        "verse_ids": [
+          "AKAM-332",
+          "DIVA-0485",
+          "DIVA-3882",
+          "KURU-382",
+          "MANI-0060"
+        ]
+      },
+      "cross_resource_support": {
+        "தலை": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "த": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L013",
+      "category": "Common",
+      "query": "வழி",
+      "normalized_query": "வழி",
+      "lemma_candidates": [
+        "வழி"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 16,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "வழி"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 15,
+        "works": [
+          "Divya Prabandham",
+          "Manimekalai",
+          "Natrinai",
+          "Purananuru"
+        ],
+        "verse_ids": [
+          "DIVA-0500",
+          "DIVA-2156",
+          "DIVA-2640",
+          "MANI-0048",
+          "MANI-0150"
+        ]
+      },
+      "cross_resource_support": {
+        "வழி": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L014",
+      "category": "Common",
+      "query": "உணவு",
+      "normalized_query": "உணவு",
+      "lemma_candidates": [
+        "உணவு"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 12,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "உணவு"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 9,
+        "lexical_count": 8,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "works": [
+          "Manimekalai",
+          "Silappatikaram"
+        ],
+        "verse_ids": [
+          "MANI-0194",
+          "SILA-010"
+        ]
+      },
+      "cross_resource_support": {
+        "உணவு": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L015",
+      "category": "Common",
+      "query": "பள்ளி",
+      "normalized_query": "பள்ளி",
+      "lemma_candidates": [
+        "பள்ளி"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 68,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "பள்ளி"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 3,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "5"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 64,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Purananuru",
+          "Silappatikaram",
+          "Thevaram"
+        ],
+        "verse_ids": [
+          "AKAM-093",
+          "AKAM-107",
+          "AKAM-302",
+          "DIVA-0534",
+          "DIVA-0647"
+        ]
+      },
+      "cross_resource_support": {
+        "பள்ளி": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L016",
+      "category": "Literary",
+      "query": "யாழ்",
+      "normalized_query": "யாழ்",
+      "lemma_candidates": [
+        "யாழ்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 7,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "யாழ்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 6,
+        "works": [
+          "Manimekalai",
+          "Natrinai",
+          "Silappatikaram"
+        ],
+        "verse_ids": [
+          "MANI-0214",
+          "MANI-0238",
+          "NATR-139",
+          "NATR-176",
+          "NATR-186"
+        ]
+      },
+      "cross_resource_support": {
+        "யாழ்": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L017",
+      "category": "Literary",
+      "query": "திணை",
+      "normalized_query": "திணை",
+      "lemma_candidates": [
+        "தி",
+        "திணை"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 10,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 1,
+        "guesser_count": 1,
+        "lemmas": [
+          "தி",
+          "திணை"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 4,
+        "lexical_count": 4,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 4,
+        "works": [
+          "Divya Prabandham",
+          "Silappatikaram",
+          "Thevaram"
+        ],
+        "verse_ids": [
+          "SILA-007",
+          "DIVA-0640",
+          "DIVA-2486",
+          "THEV-1763"
+        ]
+      },
+      "cross_resource_support": {
+        "திணை": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "தி": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L018",
+      "category": "Literary",
+      "query": "குறிஞ்சி",
+      "normalized_query": "குறிஞ்சி",
+      "lemma_candidates": [
+        "குறிஞ்சி"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 12,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "குறிஞ்சி"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 2,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 8,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Natrinai",
+          "Purananuru"
+        ],
+        "verse_ids": [
+          "AKAM-102",
+          "AKAM-282",
+          "DIVA-1049",
+          "DIVA-1359",
+          "NATR-116"
+        ]
+      },
+      "cross_resource_support": {
+        "குறிஞ்சி": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L019",
+      "category": "Literary",
+      "query": "முல்லை",
+      "normalized_query": "முல்லை",
+      "lemma_candidates": [
+        "முல்",
+        "முல்லை"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 58,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 1,
+        "guesser_count": 1,
+        "lemmas": [
+          "முல்",
+          "முல்லை"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 5,
+        "lexical_count": 3,
+        "morphology_count": 2,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 51,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Natrinai",
+          "Purananuru",
+          "Silappatikaram",
+          "Thevaram"
+        ],
+        "verse_ids": [
+          "AKAM-004",
+          "AKAM-014",
+          "AKAM-043",
+          "AKAM-074",
+          "AKAM-084"
+        ]
+      },
+      "cross_resource_support": {
+        "முல்லை": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "முல்": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L020",
+      "category": "Literary",
+      "query": "மருதம்",
+      "normalized_query": "மருதம்",
+      "lemma_candidates": [
+        "மருதம்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 9,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "மருதம்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 2,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 5,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Purananuru"
+        ],
+        "verse_ids": [
+          "AKAM-366",
+          "DIVA-1144",
+          "DIVA-1350",
+          "DIVA-1492",
+          "PURN-149"
+        ]
+      },
+      "cross_resource_support": {
+        "மருதம்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L021",
+      "category": "Literary",
+      "query": "நெய்தல்",
+      "normalized_query": "நெய்தல்",
+      "lemma_candidates": [
+        "நெய்தல்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 32,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "நெய்தல்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 31,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Thevaram"
+        ],
+        "verse_ids": [
+          "AKAM-070",
+          "AKAM-083",
+          "AKAM-119",
+          "AKAM-130",
+          "AKAM-160"
+        ]
+      },
+      "cross_resource_support": {
+        "நெய்தல்": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L022",
+      "category": "Literary",
+      "query": "பாலை",
+      "normalized_query": "பாலை",
+      "lemma_candidates": [
+        "பா",
+        "பாலை",
+        "பால்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 78,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "core_count": 2,
+        "guesser_count": 1,
+        "lemmas": [
+          "பா",
+          "பாலை",
+          "பால்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 13,
+        "lexical_count": 11,
+        "morphology_count": 2,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 62,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Purananuru",
+          "Silappatikaram",
+          "Thevaram"
+        ],
+        "verse_ids": [
+          "AKAM-005",
+          "AKAM-267",
+          "AKAM-291",
+          "AKAM-355",
+          "DIVA-1574"
+        ]
+      },
+      "cross_resource_support": {
+        "பாலை": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "பால்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "பா": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L023",
+      "category": "Literary",
+      "query": "அகத்திணை",
+      "normalized_query": "அகத்திணை",
+      "lemma_candidates": [
+        "அகத்தி",
+        "அகத்திணை"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 5,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 0,
+        "guesser_count": 2,
+        "lemmas": [
+          "அகத்தி",
+          "அகத்திணை"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 1,
+        "morphology_count": 2,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "அகத்தி": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "அகத்திணை": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L024",
+      "category": "Literary",
+      "query": "புறத்திணை",
+      "normalized_query": "புறத்திணை",
+      "lemma_candidates": [
+        "புறத்தி",
+        "புறத்திணை"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 3,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 0,
+        "guesser_count": 2,
+        "lemmas": [
+          "புறத்தி",
+          "புறத்திணை"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "lexical_count": 0,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "புறத்தி": [
+          "ThamizhiMorph"
+        ],
+        "புறத்திணை": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L025",
+      "category": "Literary",
+      "query": "தோழி",
+      "normalized_query": "தோழி",
+      "lemma_candidates": [
+        "தோழி"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 385,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "தோழி"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 384,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Purananuru"
+        ],
+        "verse_ids": [
+          "AKAM-001",
+          "AKAM-015",
+          "AKAM-018",
+          "AKAM-020",
+          "AKAM-023"
+        ]
+      },
+      "cross_resource_support": {
+        "தோழி": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L026",
+      "category": "Polysemous",
+      "query": "அகம்",
+      "normalized_query": "அகம்",
+      "lemma_candidates": [
+        "அகம்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 24,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "அகம்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 2,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 20,
+        "works": [
+          "Akananuru",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "AKAM-208",
+          "AKAM-297",
+          "KURU-137",
+          "KURU-346",
+          "MANI-0069"
+        ]
+      },
+      "cross_resource_support": {
+        "அகம்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L027",
+      "category": "Polysemous",
+      "query": "அடி",
+      "normalized_query": "அடி",
+      "lemma_candidates": [
+        "அடி"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 84,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "அடி"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 12,
+        "lexical_count": 11,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "1",
+          "10",
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 71,
+        "works": [
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "DIVA-0494",
+          "DIVA-0497",
+          "DIVA-0503",
+          "DIVA-0939",
+          "DIVA-0941"
+        ]
+      },
+      "cross_resource_support": {
+        "அடி": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L028",
+      "category": "Polysemous",
+      "query": "ஆறு",
+      "normalized_query": "ஆறு",
+      "lemma_candidates": [
+        "ஆறு"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 34,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "ஆறு"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 6,
+        "lexical_count": 5,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 27,
+        "works": [
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Thevaram",
+          "Thirumanthiram"
+        ],
+        "verse_ids": [
+          "DIVA-2115",
+          "DIVA-2385",
+          "DIVA-3230",
+          "DIVA-3487",
+          "DIVA-3492"
+        ]
+      },
+      "cross_resource_support": {
+        "ஆறு": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L029",
+      "category": "Polysemous",
+      "query": "பால்",
+      "normalized_query": "பால்",
+      "lemma_candidates": [
+        "பால்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 51,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "பால்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 7,
+        "lexical_count": 7,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 43,
+        "works": [
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "DIVA-0485",
+          "DIVA-0494",
+          "DIVA-0499",
+          "DIVA-2149",
+          "DIVA-2383"
+        ]
+      },
+      "cross_resource_support": {
+        "பால்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L030",
+      "category": "Polysemous",
+      "query": "கால்",
+      "normalized_query": "கால்",
+      "lemma_candidates": [
+        "கால்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 76,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "கால்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 12,
+        "lexical_count": 11,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 63,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "AKAM-352",
+          "DIVA-0491",
+          "DIVA-0492",
+          "DIVA-2146",
+          "DIVA-2605"
+        ]
+      },
+      "cross_resource_support": {
+        "கால்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L031",
+      "category": "Polysemous",
+      "query": "மாலை",
+      "normalized_query": "மாலை",
+      "lemma_candidates": [
+        "மா",
+        "மாலை",
+        "மால்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 427,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "core_count": 2,
+        "guesser_count": 1,
+        "lemmas": [
+          "மா",
+          "மாலை",
+          "மால்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 15,
+        "lexical_count": 12,
+        "morphology_count": 3,
+        "frequency_count": 0,
+        "relation_codes": [
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 409,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Purananuru",
+          "Silappatikaram",
+          "Thevaram",
+          "Thirumanthiram"
+        ],
+        "verse_ids": [
+          "AKAM-009",
+          "AKAM-031",
+          "AKAM-040",
+          "AKAM-047",
+          "AKAM-064"
+        ]
+      },
+      "cross_resource_support": {
+        "மா": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "மால்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "மாலை": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L032",
+      "category": "Polysemous",
+      "query": "பொருள்",
+      "normalized_query": "பொருள்",
+      "lemma_candidates": [
+        "பொருள்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 74,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "பொருள்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 11,
+        "lexical_count": 10,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "1",
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 62,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "AKAM-161",
+          "AKAM-235",
+          "DIVA-0502",
+          "DIVA-2221",
+          "DIVA-3461"
+        ]
+      },
+      "cross_resource_support": {
+        "பொருள்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L033",
+      "category": "Polysemous",
+      "query": "வாய்",
+      "normalized_query": "வாய்",
+      "lemma_candidates": [
+        "வாய்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 59,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "வாய்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 8,
+        "lexical_count": 7,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 50,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "AKAM-127",
+          "DIVA-0483",
+          "DIVA-0485",
+          "DIVA-0486",
+          "DIVA-0487"
+        ]
+      },
+      "cross_resource_support": {
+        "வாய்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L034",
+      "category": "Polysemous",
+      "query": "கரை",
+      "normalized_query": "கரை",
+      "lemma_candidates": [
+        "க",
+        "கரை"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 46,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 1,
+        "guesser_count": 1,
+        "lemmas": [
+          "க",
+          "கரை"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 5,
+        "lexical_count": 4,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "1",
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 39,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Manimekalai",
+          "Natrinai",
+          "Purananuru",
+          "Silappatikaram",
+          "Thevaram"
+        ],
+        "verse_ids": [
+          "DIVA-1628",
+          "MANI-0044",
+          "MANI-0345",
+          "MANI-0348",
+          "NATR-033"
+        ]
+      },
+      "cross_resource_support": {
+        "க": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "கரை": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L035",
+      "category": "Polysemous",
+      "query": "கோல்",
+      "normalized_query": "கோல்",
+      "lemma_candidates": [
+        "கோல்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 28,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "கோல்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "lexical_count": 0,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 26,
+        "works": [
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "KURU-233",
+          "KURU-298",
+          "KURU-301",
+          "KURU-335",
+          "KURU-347"
+        ]
+      },
+      "cross_resource_support": {
+        "கோல்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L036",
+      "category": "Inflected",
+      "query": "வந்தார்கள்",
+      "normalized_query": "வந்தார்கள்",
+      "lemma_candidates": [
+        "வந்",
+        "வந்தார்",
+        "வா"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 20,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "core_count": 1,
+        "guesser_count": 2,
+        "lemmas": [
+          "வந்",
+          "வந்தார்",
+          "வா"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "lexical_count": 0,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 16,
+        "works": [
+          "Divya Prabandham",
+          "Manimekalai",
+          "Silappatikaram",
+          "Thevaram"
+        ],
+        "verse_ids": [
+          "DIVA-1259",
+          "DIVA-1396",
+          "DIVA-1465",
+          "DIVA-1608",
+          "DIVA-2289"
+        ]
+      },
+      "cross_resource_support": {
+        "வந்": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ],
+        "வா": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "வந்தார்கள்": [
+          "ThamizhiMorph"
+        ],
+        "வந்தார்": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L037",
+      "category": "Inflected",
+      "query": "சென்றுகொண்டிருந்தான்",
+      "normalized_query": "சென்றுகொண்டிருந்தான்",
+      "lemma_candidates": [
+        "சென்றுகொண்டிரு",
+        "சென்றுகொண்டிருந்",
+        "சென்றுகொண்டிருந்தான்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 3,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "core_count": 1,
+        "guesser_count": 2,
+        "lemmas": [
+          "சென்றுகொண்டிரு",
+          "சென்றுகொண்டிருந்",
+          "சென்றுகொண்டிருந்தான்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "சென்றுகொண்டிரு": [
+          "ThamizhiMorph"
+        ],
+        "சென்றுகொண்டிருந்தான்": [
+          "ThamizhiMorph"
+        ],
+        "சென்றுகொண்டிருந்": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L038",
+      "category": "Inflected",
+      "query": "மரங்களில்",
+      "normalized_query": "மரங்களில்",
+      "lemma_candidates": [
+        "மரங்",
+        "மரம்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 31,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 1,
+        "guesser_count": 1,
+        "lemmas": [
+          "மரங்",
+          "மரம்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 5,
+        "lexical_count": 3,
+        "morphology_count": 2,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 24,
+        "works": [
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Silappatikaram"
+        ],
+        "verse_ids": [
+          "KURU-155",
+          "KURU-198",
+          "KURU-214",
+          "KURU-249",
+          "KURU-352"
+        ]
+      },
+      "cross_resource_support": {
+        "மரங்களில்": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "மரம்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "மரங்": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L039",
+      "category": "Inflected",
+      "query": "மனதினால்",
+      "normalized_query": "மனதினால்",
+      "lemma_candidates": [
+        "மனதி"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 1,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 0,
+        "guesser_count": 1,
+        "lemmas": [
+          "மனதி"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "மனதினால்": [
+          "ThamizhiMorph"
+        ],
+        "மனதி": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": true,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L040",
+      "category": "Inflected",
+      "query": "பாடுகின்றனர்",
+      "normalized_query": "பாடுகின்றனர்",
+      "lemma_candidates": [
+        "பாடுகின்றனர்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 1,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 0,
+        "guesser_count": 1,
+        "lemmas": [
+          "பாடுகின்றனர்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "பாடுகின்றனர்": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": true,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L041",
+      "category": "Inflected",
+      "query": "மரத்தை",
+      "normalized_query": "மரத்தை",
+      "lemma_candidates": [
+        "மரத்தை",
+        "மரம்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 30,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 1,
+        "guesser_count": 1,
+        "lemmas": [
+          "மரத்தை",
+          "மரம்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 4,
+        "lexical_count": 3,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 24,
+        "works": [
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Silappatikaram"
+        ],
+        "verse_ids": [
+          "KURU-155",
+          "KURU-198",
+          "KURU-214",
+          "KURU-249",
+          "KURU-352"
+        ]
+      },
+      "cross_resource_support": {
+        "மரத்தை": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "மரம்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L042",
+      "category": "Inflected",
+      "query": "வீட்டில்",
+      "normalized_query": "வீட்டில்",
+      "lemma_candidates": [
+        "வீடு",
+        "வீட்டில்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 27,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 1,
+        "guesser_count": 1,
+        "lemmas": [
+          "வீடு",
+          "வீட்டில்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 2,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 22,
+        "works": [
+          "Divya Prabandham",
+          "Manimekalai",
+          "Thevaram",
+          "Thirumanthiram"
+        ],
+        "verse_ids": [
+          "DIVA-0481",
+          "DIVA-1989",
+          "DIVA-2393",
+          "DIVA-2844",
+          "DIVA-3041"
+        ]
+      },
+      "cross_resource_support": {
+        "வீட்டில்": [
+          "ThamizhiMorph"
+        ],
+        "வீடு": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L043",
+      "category": "Inflected",
+      "query": "மாணவர்களுக்கு",
+      "normalized_query": "மாணவர்களுக்கு",
+      "lemma_candidates": [
+        "மாணவன்",
+        "மாணவர்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 9,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 2,
+        "guesser_count": 0,
+        "lemmas": [
+          "மாணவன்",
+          "மாணவர்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 7,
+        "lexical_count": 5,
+        "morphology_count": 2,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "மாணவர்களுக்கு": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "மாணவர்": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "மாணவன்": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L044",
+      "category": "Inflected",
+      "query": "பெண்களால்",
+      "normalized_query": "பெண்களால்",
+      "lemma_candidates": [
+        "பெண்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 7,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 0,
+        "guesser_count": 1,
+        "lemmas": [
+          "பெண்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 2,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "works": [
+          "Divya Prabandham",
+          "Manimekalai"
+        ],
+        "verse_ids": [
+          "DIVA-0480",
+          "DIVA-0503",
+          "MANI-0333"
+        ]
+      },
+      "cross_resource_support": {
+        "பெண்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "பெண்களால்": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L045",
+      "category": "Inflected",
+      "query": "புத்தகங்களின்",
+      "normalized_query": "புத்தகங்களின்",
+      "lemma_candidates": [
+        "புத்தகங்",
+        "புத்தகம்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Tamil WordNet",
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi"
+      ],
+      "evidence_count": 6,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 1,
+        "guesser_count": 1,
+        "lemmas": [
+          "புத்தகங்",
+          "புத்தகம்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "headwords": [
+          "புத்தகம்"
+        ],
+        "meanings": [
+          "சுவடி, நூல்"
+        ]
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 1,
+        "morphology_count": 2,
+        "frequency_count": 0,
+        "relation_codes": [
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "புத்தகங்": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "புத்தகங்களின்": [
+          "ThamizhiMorph"
+        ],
+        "புத்தகம்": [
+          "Tamil WordNet",
+          "ThamizhiMorph",
+          "Thani Thamizh Akarathi"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L046",
+      "category": "Archaic/Rare",
+      "query": "அணங்கு",
+      "normalized_query": "அணங்கு",
+      "lemma_candidates": [
+        "அணங்கு"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 16,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "அணங்கு"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "lexical_count": 1,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 13,
+        "works": [
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Silappatikaram"
+        ],
+        "verse_ids": [
+          "DIVA-2738",
+          "DIVA-2745",
+          "KURU-308",
+          "MANI-0031",
+          "MANI-0204"
+        ]
+      },
+      "cross_resource_support": {
+        "அணங்கு": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L047",
+      "category": "Archaic/Rare",
+      "query": "மடல்",
+      "normalized_query": "மடல்",
+      "lemma_candidates": [
+        "மடல்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 35,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 0,
+        "guesser_count": 1,
+        "lemmas": [
+          "மடல்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 8,
+        "lexical_count": 7,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 26,
+        "works": [
+          "Divya Prabandham",
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai"
+        ],
+        "verse_ids": [
+          "DIVA-2672",
+          "DIVA-2712",
+          "DIVA-2790",
+          "KURU-081",
+          "KURU-177"
+        ]
+      },
+      "cross_resource_support": {
+        "மடல்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L048",
+      "category": "Archaic/Rare",
+      "query": "விறலி",
+      "normalized_query": "விறலி",
+      "lemma_candidates": [
+        "விறலி",
+        "விறலு"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 11,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 2,
+        "guesser_count": 0,
+        "lemmas": [
+          "விறலி",
+          "விறலு"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 9,
+        "works": [
+          "Akananuru",
+          "Natrinai",
+          "Purananuru"
+        ],
+        "verse_ids": [
+          "AKAM-352",
+          "NATR-328",
+          "PURN-064",
+          "PURN-089",
+          "PURN-103"
+        ]
+      },
+      "cross_resource_support": {
+        "விறலு": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ],
+        "விறலி": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L049",
+      "category": "Archaic/Rare",
+      "query": "வேந்தன்",
+      "normalized_query": "வேந்தன்",
+      "lemma_candidates": [
+        "வே",
+        "வேந்",
+        "வேந்தன்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 74,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "core_count": 2,
+        "guesser_count": 1,
+        "lemmas": [
+          "வே",
+          "வேந்",
+          "வேந்தன்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "lexical_count": 0,
+        "morphology_count": 2,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 69,
+        "works": [
+          "Akananuru",
+          "Divya Prabandham",
+          "Manimekalai",
+          "Natrinai",
+          "Purananuru",
+          "Silappatikaram",
+          "Thevaram",
+          "Thirumanthiram"
+        ],
+        "verse_ids": [
+          "AKAM-024",
+          "AKAM-084",
+          "AKAM-100",
+          "AKAM-109",
+          "AKAM-164"
+        ]
+      },
+      "cross_resource_support": {
+        "வேந்தன்": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ],
+        "வே": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "வேந்": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L050",
+      "category": "Archaic/Rare",
+      "query": "பரத்தை",
+      "normalized_query": "பரத்தை",
+      "lemma_candidates": [
+        "பரத்தை"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 10,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 0,
+        "guesser_count": 1,
+        "lemmas": [
+          "பரத்தை"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "lexical_count": 2,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 6,
+        "works": [
+          "Akananuru",
+          "Natrinai",
+          "Silappatikaram"
+        ],
+        "verse_ids": [
+          "AKAM-166",
+          "AKAM-256",
+          "NATR-225",
+          "NATR-310",
+          "NATR-360"
+        ]
+      },
+      "cross_resource_support": {
+        "பரத்தை": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L051",
+      "category": "Modern/Technical",
+      "query": "கணினி",
+      "normalized_query": "கணினி",
+      "lemma_candidates": [
+        "கணினி"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 1,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 0,
+        "guesser_count": 1,
+        "lemmas": [
+          "கணினி"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "கணினி": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": true,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L052",
+      "category": "Modern/Technical",
+      "query": "மென்பொருள்",
+      "normalized_query": "மென்பொருள்",
+      "lemma_candidates": [
+        "மென்பொருள்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 1,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 0,
+        "guesser_count": 1,
+        "lemmas": [
+          "மென்பொருள்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "மென்பொருள்": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": true,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L053",
+      "category": "Modern/Technical",
+      "query": "தரவுத்தளம்",
+      "normalized_query": "தரவுத்தளம்",
+      "lemma_candidates": [
+        "தரவுத்தளம்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 1,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 0,
+        "guesser_count": 1,
+        "lemmas": [
+          "தரவுத்தளம்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "தரவுத்தளம்": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": true,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L054",
+      "category": "Modern/Technical",
+      "query": "இணையம்",
+      "normalized_query": "இணையம்",
+      "lemma_candidates": [
+        "இணையம்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 2,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 1,
+        "guesser_count": 0,
+        "lemmas": [
+          "இணையம்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "lexical_count": 0,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "இணையம்": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "L055",
+      "category": "Modern/Technical",
+      "query": "செயற்கை நுண்ணறிவு",
+      "normalized_query": "செயற்கை நுண்ணறிவு",
+      "lemma_candidates": [],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [],
+      "evidence_count": 0,
+      "ThamizhiMorph_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "core_count": 0,
+        "guesser_count": 0,
+        "lemmas": []
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {},
+      "conflicting_candidates": false,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "M001",
+      "category": "Morphology",
+      "query": "வந்தார்கள்",
+      "normalized_query": "வந்தார்கள்",
+      "lemma_candidates": [
+        "வந்",
+        "வந்தார்",
+        "வா"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 20,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "core_count": 1,
+        "guesser_count": 2,
+        "lemmas": [
+          "வந்",
+          "வந்தார்",
+          "வா"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "lexical_count": 0,
+        "morphology_count": 1,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 16,
+        "works": [
+          "Divya Prabandham",
+          "Manimekalai",
+          "Silappatikaram",
+          "Thevaram"
+        ],
+        "verse_ids": [
+          "DIVA-1259",
+          "DIVA-1396",
+          "DIVA-1465",
+          "DIVA-1608",
+          "DIVA-2289"
+        ]
+      },
+      "cross_resource_support": {
+        "வந்": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ],
+        "வா": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "வந்தார்கள்": [
+          "ThamizhiMorph"
+        ],
+        "வந்தார்": [
+          "Sentamizh",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "M002",
+      "category": "Morphology",
+      "query": "சென்றுகொண்டிருந்தான்",
+      "normalized_query": "சென்றுகொண்டிருந்தான்",
+      "lemma_candidates": [
+        "சென்றுகொண்டிரு",
+        "சென்றுகொண்டிருந்",
+        "சென்றுகொண்டிருந்தான்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 3,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 3,
+        "core_count": 1,
+        "guesser_count": 2,
+        "lemmas": [
+          "சென்றுகொண்டிரு",
+          "சென்றுகொண்டிருந்",
+          "சென்றுகொண்டிருந்தான்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "சென்றுகொண்டிரு": [
+          "ThamizhiMorph"
+        ],
+        "சென்றுகொண்டிருந்தான்": [
+          "ThamizhiMorph"
+        ],
+        "சென்றுகொண்டிருந்": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "M003",
+      "category": "Morphology",
+      "query": "மரங்களில்",
+      "normalized_query": "மரங்களில்",
+      "lemma_candidates": [
+        "மரங்",
+        "மரம்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "Sentamizh",
+        "Tamil WordNet",
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 31,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 2,
+        "core_count": 1,
+        "guesser_count": 1,
+        "lemmas": [
+          "மரங்",
+          "மரம்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": true,
+        "total_entries": 5,
+        "lexical_count": 3,
+        "morphology_count": 2,
+        "frequency_count": 0,
+        "relation_codes": [
+          "3",
+          "4"
+        ]
+      },
+      "Sentamizh_evidence": {
+        "found": true,
+        "total_entries": 24,
+        "works": [
+          "Kuruntokai",
+          "Manimekalai",
+          "Natrinai",
+          "Silappatikaram"
+        ],
+        "verse_ids": [
+          "KURU-155",
+          "KURU-198",
+          "KURU-214",
+          "KURU-249",
+          "KURU-352"
+        ]
+      },
+      "cross_resource_support": {
+        "மரங்களில்": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "மரம்": [
+          "Sentamizh",
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ],
+        "மரங்": [
+          "Tamil WordNet",
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": true,
+      "guesser_only_dependency": false,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "M004",
+      "category": "Morphology",
+      "query": "மனதினால்",
+      "normalized_query": "மனதினால்",
+      "lemma_candidates": [
+        "மனதி"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 1,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 0,
+        "guesser_count": 1,
+        "lemmas": [
+          "மனதி"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "மனதினால்": [
+          "ThamizhiMorph"
+        ],
+        "மனதி": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": true,
+      "errors": {}
+    },
+    {
+      "benchmark_id": "M005",
+      "category": "Morphology",
+      "query": "பாடுகின்றனர்",
+      "normalized_query": "பாடுகின்றனர்",
+      "lemma_candidates": [
+        "பாடுகின்றனர்"
+      ],
+      "resources_attempted": [
+        "ThamizhiMorph",
+        "Thani Thamizh Akarathi",
+        "Tamil WordNet",
+        "Sentamizh"
+      ],
+      "resources_with_evidence": [
+        "ThamizhiMorph"
+      ],
+      "evidence_count": 1,
+      "ThamizhiMorph_evidence": {
+        "found": true,
+        "total_entries": 1,
+        "core_count": 0,
+        "guesser_count": 1,
+        "lemmas": [
+          "பாடுகின்றனர்"
+        ]
+      },
+      "Akarathi_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "headwords": [],
+        "meanings": []
+      },
+      "WordNet_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "lexical_count": 0,
+        "morphology_count": 0,
+        "frequency_count": 0,
+        "relation_codes": []
+      },
+      "Sentamizh_evidence": {
+        "found": false,
+        "total_entries": 0,
+        "works": [],
+        "verse_ids": []
+      },
+      "cross_resource_support": {
+        "பாடுகின்றனர்": [
+          "ThamizhiMorph"
+        ]
+      },
+      "conflicting_candidates": false,
+      "guesser_only_dependency": true,
+      "errors": {}
+    }
+  ]
+}
