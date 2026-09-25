@@ -108,3 +108,4 @@ npm run build
 2. **Tamil WordNet**: Lexical-semantic network containing 50,497 synset nodes and 434,849 morphtable mappings.
 3. **Thani Thamizh Akarathi**: Purist Tamil dictionary containing 11,540+ lexical entries.
 4. **Sentamizh Corpus**: Sangam literary corpus containing 10,393 verse records across classical Tamil works.
+5. **Tamil Wiktionary**: Open-source collaborative dictionary for modern and historical definitions.

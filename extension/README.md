@@ -9,7 +9,7 @@ The **சொல் AI Browser Extension** allows users to encounter Tamil text o
 1. **Right-Click Context Menu**: Select any Tamil text on any webpage, right-click, and choose **"Explain with சொல் AI"**.
 2. **Floating Scoped Side Panel**: Displays structured analysis directly on the page inside a Shadow DOM container without altering or breaking host page layout/styles.
 3. **Manual Popup Lookup**: Click the extension icon in your browser toolbar to type or paste any Tamil word/phrase manually.
-4. **Evidence Transparency**: Displays primary resource provenance (`ThamizhiMorph`, `Tamil WordNet`, `Thani Thamizh Akarathi`, `Sentamizh`).
+4. **Evidence Transparency**: Displays primary resource provenance (`ThamizhiMorph`, `Tamil WordNet`, `Thani Thamizh Akarathi`, `Sentamizh`, `Tamil Wiktionary`).
 5. **Morphology & Literary Context**: Distinguishes **Core FST** vs **Guesser** analyses and renders selected classical Sangam verses with modern Tamil glosses.
 6. **Configurable API Endpoint**: Easily set custom backend URLs (`http://localhost:8000`).
 
