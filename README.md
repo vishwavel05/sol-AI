@@ -60,7 +60,20 @@ python scripts/build_wiktionary_index.py
 python scripts/build_wordnet_index.py
 ```
 
-### 2. Start the Backend API (Python)
+### 2. Configure Your LLM API Key
+The AI interpretation layer requires an API key to function. By default, it uses the Google Gemini API.
+
+1. Create a `.env` file in the root directory (you can copy `.env.example` if it exists).
+2. Add your API key:
+```env
+# Primary LLM (Google Gemini)
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# Optional: If you prefer Groq as a fallback or primary
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+### 3. Start the Backend API (Python)
 ```bash
 python backend/api/server.py --port 8000
 ```
