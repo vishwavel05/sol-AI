@@ -35,16 +35,30 @@ SOL AI is an open-access, evidence-grounded Tamil etymological, morphological, a
 
 ## 🚀 Quick Start Guide
 
-### 1. Build the Lexical Databases
-The raw Tamil datasets (Wiktionary, Wordnet, Akarathi, Sentamizh) are extremely large and are excluded from this repository via `.gitignore` to comply with GitHub's storage limits.
-Before starting the server for the first time, you must download the raw datasets into `data/raw/` and build the indexes by running the scripts in the `scripts/` directory:
+### 1. Download & Build the Lexical Databases
+The raw Tamil datasets are extremely large and are excluded from this repository via `.gitignore` to comply with GitHub's storage limits.
+Before starting the server for the first time, you must download the raw datasets into `data/raw/` and build the indexes.
+
+Run the following commands in your terminal to fetch the open-source repositories:
+```bash
+# 1. Download ThamizhiMorph (Morphological Engine)
+git clone https://github.com/sarves/thamizhi-morph data/raw/thamizhimorph
+
+# 2. Download Thani Thamizh Akarathi (Dictionary)
+git clone https://github.com/Kaviyarasan-N/Thani_Thamizh_Akarathi data/raw/thani_thamizh_akarathi
+
+# 3. Download Sentamizh (Literary Corpus)
+git clone https://github.com/e-thamil/sentamizh-corpus data/raw/sentamizh
+```
+*(Note: For WordNet and Wiktionary XML dumps, refer to `research/RESOURCE_AUDIT.md` for manual download links).*
+
+Once downloaded, build the indexes by running the compilation scripts:
 ```bash
 python scripts/build_akarathi_index.py
 python scripts/build_sentamizh_index.py
 python scripts/build_wiktionary_index.py
 python scripts/build_wordnet_index.py
 ```
-*(Note: Refer to `research/RESOURCE_AUDIT.md` for download links to the raw XML/CSV files).*
 
 ### 2. Start the Backend API (Python)
 ```bash
