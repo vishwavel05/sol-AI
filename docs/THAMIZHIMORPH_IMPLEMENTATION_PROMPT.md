@@ -1,8 +1,8 @@
-# SOL AI — ThamizhiMorph Implementation Task
+# சொல் AI — ThamizhiMorph Implementation Task
 
 ## PROJECT CONTEXT
 
-SOL AI is a Tamil lexical + literary intelligence system.
+சொல் AI is a Tamil lexical + literary intelligence system.
 
 The Phase 0 resource audit is COMPLETE and FROZEN.
 
@@ -54,7 +54,7 @@ Do NOT build authentication.
 Do NOT redesign the project.
 Do NOT search for additional datasets.
 
-The goal is to prove that SOL AI can take a Tamil word, run morphological analysis through ThamizhiMorph/Foma, normalize the result into our internal evidence format, and evaluate the result against our benchmark.
+The goal is to prove that சொல் AI can take a Tamil word, run morphological analysis through ThamizhiMorph/Foma, normalize the result into our internal evidence format, and evaluate the result against our benchmark.
 
 ---
 
@@ -583,7 +583,7 @@ Do not claim something works unless you actually tested it.
 
 MOST IMPORTANT:
 
-The objective is to get a real, working SOL AI foundation today.
+The objective is to get a real, working சொல் AI foundation today.
 
 Do not spend time making the architecture beautiful.
 

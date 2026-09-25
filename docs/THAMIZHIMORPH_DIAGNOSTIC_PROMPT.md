@@ -1,4 +1,4 @@
-# SOL AI — ThamizhiMorph Diagnostic Investigation
+# சொல் AI — ThamizhiMorph Diagnostic Investigation
 
 We have completed the first ThamizhiMorph vertical slice.
 

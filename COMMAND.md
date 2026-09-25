@@ -1,12 +1,12 @@
-# SOL AI — Command Reference & Operating Manual
+# சொல் AI — Command Reference & Operating Manual
 
-This document summarizes all standard execution, testing, build, and development commands for the SOL AI project.
+This document summarizes all standard execution, testing, build, and development commands for the சொல் AI project.
 
 ---
 
 ## 1. Backend Server & API
 
-Start the SOL AI REST API server:
+Start the சொல் AI REST API server:
 
 ```bash
 # From workspace root:

@@ -1,6 +1,6 @@
-# SOL AI — Gemini API Setup & Activation Guide
+# சொல் AI — Gemini API Setup & Activation Guide
 
-This guide explains how to configure and activate the **Google Gemini LLM Interpreter** (`GeminiLLMInterpreter`) in SOL AI for live contextual interpretations.
+This guide explains how to configure and activate the **Google Gemini LLM Interpreter** (`GeminiLLMInterpreter`) in சொல் AI for live contextual interpretations.
 
 ---
 

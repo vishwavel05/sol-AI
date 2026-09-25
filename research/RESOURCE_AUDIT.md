@@ -1,7 +1,7 @@
-# SOL AI — Resource Audit
+# சொல் AI — Resource Audit
 
 > Phase 0: Audit Tamil lexical, morphological, and literary resources
-> before integrating anything into the SOL AI application.
+> before integrating anything into the சொல் AI application.
 
 ---
 
@@ -19,9 +19,9 @@ resources and determine:
 - How resources overlap
 - What licensing restrictions apply
 - How difficult each resource would be to integrate
-- How each resource could contribute to SOL AI
+- How each resource could contribute to சொல் AI
 
-No resource will be integrated into the SOL AI application until
+No resource will be integrated into the சொல் AI application until
 its structure, contents, and licensing have been evaluated.
 
 ---
@@ -187,9 +187,9 @@ Where applicable:
 - Dataset-specific restrictions:
 - Evidence/source:
 
-## 3.10 SOL AI Usage
+## 3.10 சொல் AI Usage
 
-- Can SOL AI use this resource?
+- Can சொல் AI use this resource?
 - Can we modify it?
 - Can we redistribute derived data?
 - Can it be used in a public demo?
@@ -318,7 +318,7 @@ Further investigation required across the repository.
 
 TBD — verify against the repository's license documentation.
 
-## SOL AI usage
+## சொல் AI usage
 
 Potentially useful as a lexical/equivalent resource.
 
@@ -371,7 +371,7 @@ and repeated headwords will require careful normalization.
    format should both be investigated before designing the parser.
 6. Raw files must remain unchanged; normalization will happen later.
 
-## SOL AI relevance
+## சொல் AI relevance
 
 HIGH
 
@@ -381,7 +381,7 @@ non-Tamil-origin vocabulary to Tamil alternatives.
 
 However, its actual coverage and relationship to the other dictionary
 resources must be measured before assigning it a role in the final
-SOL AI architecture.
+சொல் AI architecture.
 
 ## Source
 
@@ -445,11 +445,11 @@ Important:
 Individual embedded dictionaries/resources may have separate provenance or
 licensing terms and must be checked before redistribution.
 
-SOL AI usage:
+சொல் AI usage:
 Potentially usable, including derived/processed data, provided attribution,
 license preservation, and adaptation requirements are followed.
 
-## SOL AI relevance
+## சொல் AI relevance
 
 Potentially useful for:
 
@@ -553,7 +553,7 @@ Fields:
 
 This provides an observed mapping of an inflected/inflated word to its root word.
 
-This is particularly relevant to SOL AI because it provides a morphology signal that can later be compared against ThamizhiMorph.
+This is particularly relevant to சொல் AI because it provides a morphology signal that can later be compared against ThamizhiMorph.
 
 ### `frequency` — Word frequency
 
@@ -588,7 +588,7 @@ Examples:
 
 The archive also contains Tamil font/encoding resources such as TAB fonts and `charmap.gif`.
 
-Therefore, Unicode conversion/normalization will be required before directly integrating the resource into a modern SOL AI pipeline.
+Therefore, Unicode conversion/normalization will be required before directly integrating the resource into a modern சொல் AI pipeline.
 
 ### License
 
@@ -601,9 +601,9 @@ Copyright is attributed to AU-KBC Research Centre, Chennai and Tamil University,
 
 The license distinction must be preserved when using or redistributing the database versus the accompanying software/application files.
 
-### Initial SOL AI relevance
+### Initial சொல் AI relevance
 
-Tamil WordNet is potentially a major lexical-semantic component for SOL AI because it provides multiple complementary signals:
+Tamil WordNet is potentially a major lexical-semantic component for சொல் AI because it provides multiple complementary signals:
 
 1. Lexical concepts
 2. Hierarchical relationships
@@ -884,7 +884,7 @@ Not provided as a structured POS annotation field in the 32-field corpus schema.
 
 No explicit morphological analysis is provided.
 
-Sentamizh should therefore not be treated as the morphology engine for SOL AI. ThamizhiMorph and Tamil WordNet's `morphtable` are more relevant for morphological processing.
+Sentamizh should therefore not be treated as the morphology engine for சொல் AI. ThamizhiMorph and Tamil WordNet's `morphtable` are more relevant for morphological processing.
 
 ## License
 
@@ -892,7 +892,7 @@ The repository uses the Apache License 2.0.
 
 However, the corpus incorporates material originating from multiple upstream sources. Therefore, upstream provenance and licensing should be preserved when using individual source material rather than assuming the repository license automatically resolves every underlying source.
 
-## SOL AI usage
+## சொல் AI usage
 
 Highly relevant as a literary context and provenance layer.
 
@@ -999,17 +999,17 @@ A representative record follows the 32-field structure:
 
 7. The six populated source URLs correspond to the three works above and their respective verse ranges.
 
-## SOL AI relevance
+## சொல் AI relevance
 
 **High — primarily as the literary-context layer.**
 
-Sentamizh can provide the part of SOL AI that answers:
+Sentamizh can provide the part of சொல் AI that answers:
 
 > "Where does this word appear in Tamil literature, and what is the surrounding literary context?"
 
 It complements rather than replaces the other resources:
 
-| Resource | Primary role in SOL AI |
+| Resource | Primary role in சொல் AI |
 |---|---|
 | Tamil WordNet | Lexical relations, senses, and morphology-related data |
 | Thani Thamizh Akarathi | Dictionary meanings and lexical resources |
@@ -1054,7 +1054,7 @@ Approximately **1,090 catalogue entries** were observed in the Unicode Tamil wor
 
 A complete record-level corpus count was not performed because Project Madurai is a large collection of individual literary texts rather than a single structured dataset.
 
-For SOL AI, the useful unit will therefore be the individual text/work rather than the catalogue-entry count.
+For சொல் AI, the useful unit will therefore be the individual text/work rather than the catalogue-entry count.
 
 ## Format
 
@@ -1066,7 +1066,7 @@ Project Madurai provides literary works in multiple formats, including:
 - Kindle formats for some works
 - Older TSCII/legacy encoded material
 
-For SOL AI, **Unicode/UTF-8 HTML is the preferred format** because it can be directly parsed into searchable Tamil text without PDF/OCR extraction.
+For சொல் AI, **Unicode/UTF-8 HTML is the preferred format** because it can be directly parsed into searchable Tamil text without PDF/OCR extraction.
 
 Project Madurai states that older works were converted from TSCII to Unicode/UTF-8, although some older formats may still exist on the website. :contentReference[oaicite:3]{index=3}
 
@@ -1149,9 +1149,9 @@ Its distribution notice permits third-party distribution provided that the heade
 
 The FAQ also explains that texts are selected for archiving when they are public-domain works or when the relevant author/rightsholder has given permission for electronic reproduction and free Internet distribution. :contentReference[oaicite:6]{index=6}
 
-Therefore, SOL AI should preserve the original Project Madurai attribution/header information and provenance when using these texts.
+Therefore, சொல் AI should preserve the original Project Madurai attribution/header information and provenance when using these texts.
 
-## SOL AI usage
+## சொல் AI usage
 
 Highly relevant as a **large-scale literary text and occurrence-search layer**.
 
@@ -1220,7 +1220,7 @@ Text:
 
 3. It is primarily a **literary text repository**, not a linguistic annotation resource.
 
-4. Unicode/UTF-8 HTML is the most useful format for SOL AI ingestion.
+4. Unicode/UTF-8 HTML is the most useful format for சொல் AI ingestion.
 
 5. The collection contains both ancient/classical works and later Tamil literary material.
 
@@ -1234,7 +1234,7 @@ Text:
 
 10. A complete ingestion of the entire collection is unnecessary for the hackathon MVP.
 
-## SOL AI relevance
+## சொல் AI relevance
 
 **Very High — as the broader literary corpus layer.**
 
@@ -1248,7 +1248,7 @@ Project Madurai complements Sentamizh:
 | Sentamizh | Structured literary context and annotations |
 | Project Madurai | Large-scale full literary text corpus |
 
-The combination allows SOL AI to move from:
+The combination allows சொல் AI to move from:
 
 ```text
 Word
@@ -1293,7 +1293,7 @@ https://www.projectmadurai.org/pmworks.html
 
 ## License
 
-## SOL AI relevance
+## சொல் AI relevance
 
 ## Source
 
@@ -1319,7 +1319,7 @@ https://www.projectmadurai.org/pmworks.html
 
 ## License
 
-## SOL AI usage
+## சொல் AI usage
 
 ## Integration difficulty
 
@@ -1327,7 +1327,7 @@ https://www.projectmadurai.org/pmworks.html
 
 ## Observations
 
-## SOL AI relevance
+## சொல் AI relevance
 
 ## Source
 
@@ -1355,7 +1355,7 @@ https://www.projectmadurai.org/pmworks.html
 
 ## License
 
-## SOL AI usage
+## சொல் AI usage
 
 ## Integration difficulty
 
@@ -1363,7 +1363,7 @@ https://www.projectmadurai.org/pmworks.html
 
 ## Observations
 
-## SOL AI relevance
+## சொல் AI relevance
 
 ## Source
 
@@ -1379,7 +1379,7 @@ Resources investigated:
 
 ## License considerations
 
-## SOL AI relevance
+## சொல் AI relevance
 
 ---
 
@@ -1393,7 +1393,7 @@ Resources investigated:
 
 ## License considerations
 
-## SOL AI relevance
+## சொல் AI relevance
 
 ---
 
@@ -1407,7 +1407,7 @@ Resources investigated:
 
 ## License considerations
 
-## SOL AI relevance
+## சொல் AI relevance
 
 ---
 
@@ -1430,7 +1430,7 @@ This section will be completed after individual audits.
 
 # 7. Coverage Analysis
 
-To be completed after the SOL Benchmark is created.
+To be completed after the சொல் Benchmark is created.
 
 | Resource | Overall Coverage | Common | Literary | Polysemous | Inflected | Archaic | Modern |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -1468,7 +1468,7 @@ Results will be recorded after ThamizhiMorph inspection.
 
 # 9. Literature Provenance
 
-For every literary occurrence eventually indexed by SOL AI,
+For every literary occurrence eventually indexed by சொல் AI,
 we should preserve provenance wherever available.
 
 Expected fields:
@@ -1493,7 +1493,7 @@ source dataset
 
 ## Core Resources Selected
 
-| Resource | SOL AI Role |
+| Resource | சொல் AI Role |
 |---|---|
 | Thani Thamizh Akarathi | Lexical meanings and Tamil equivalents |
 | Tamil WordNet | Lexical-semantic relations and supporting morphology |
@@ -1503,7 +1503,7 @@ source dataset
 
 ## Decision
 
-The initial SOL AI implementation will use these five resources as the
+The initial சொல் AI implementation will use these five resources as the
 primary evidence sources.
 
 No additional resource will be integrated during Phase 0 unless a specific
